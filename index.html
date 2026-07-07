@@ -9,8 +9,8 @@
 <body>
 <header>
   <h1>MSH Limited Tricks</h1>
-  <p class="subtitle">Anki-style trainer for every Instant and Flash card in Marvel Super Heroes limited</p>
-  <button id="settings-toggle" class="icon-btn" title="Filters &amp; data">⚙</button>
+  <p class="subtitle">Anki-style trainer for every Instant, Flash, and instant-speed activated-ability card in Marvel Super Heroes limited</p>
+  <button id="settings-toggle" class="icon-btn" title="Filters &amp; data" aria-label="Toggle filters and data panel" aria-expanded="false" aria-controls="settings-panel">⚙</button>
 </header>
 
 <section id="settings-panel" class="hidden">
@@ -27,6 +27,21 @@
     <span class="filter-label">Card kind</span>
     <label><input type="checkbox" id="kind-instant" checked>Instants</label>
     <label><input type="checkbox" id="kind-flash" checked>Flash permanents</label>
+    <label><input type="checkbox" id="kind-activated" checked>Activated abilities</label>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Role</span>
+    <label><input type="checkbox" class="role-filter" value="combat_trick" checked>Combat trick</label>
+    <label><input type="checkbox" class="role-filter" value="removal" checked>Removal</label>
+    <label><input type="checkbox" class="role-filter" value="protection" checked>Protection</label>
+    <label><input type="checkbox" class="role-filter" value="counter" checked>Counter</label>
+    <label><input type="checkbox" class="role-filter" value="card_advantage" checked>Card advantage</label>
+    <label><input type="checkbox" class="role-filter" value="tempo_permanent" checked>Tempo permanent</label>
+    <label><input type="checkbox" class="role-filter" value="utility" checked>Utility</label>
+  </div>
+  <div class="filter-group">
+    <span class="filter-label">Study mode</span>
+    <label><input type="checkbox" id="mana-only-mode">Mana-only front (hide card name)</label>
   </div>
   <div class="filter-group">
     <span class="filter-label">Data</span>
@@ -37,38 +52,50 @@
   </div>
 </section>
 
+<nav id="mode-tabs" role="tablist">
+  <button class="mode-tab active" id="tab-study" role="tab" aria-selected="true" aria-controls="study-view">Study</button>
+  <button class="mode-tab" id="tab-browse" role="tab" aria-selected="false" aria-controls="browse-view">Browse</button>
+</nav>
+
 <main>
   <div id="stats-bar">
     <span><strong id="stat-due">0</strong> due</span>
     <span><strong id="stat-new">0</strong> new</span>
     <span><strong id="stat-total">0</strong> in filter</span>
+    <span><strong id="stat-graduated">0</strong> graduated</span>
   </div>
 
-  <div id="empty-state" class="hidden">
-    <p>Nothing to review right now with the current filters. Check your filters, or come back later.</p>
+  <div id="study-view" role="tabpanel">
+    <div id="empty-state" class="hidden">
+      <p>Nothing to review right now with the current filters. Check your filters, or come back later.</p>
+    </div>
+
+    <div id="card-area" class="hidden">
+      <div id="card">
+        <div id="card-front">
+          <div id="front-mana" class="mana-cost"></div>
+          <div id="front-name"></div>
+          <div id="front-type"></div>
+          <button id="show-answer-btn">Show answer (Space)</button>
+        </div>
+        <div id="card-back" class="hidden">
+          <div id="back-images"></div>
+          <div id="back-oracle"></div>
+          <a id="back-scryfall-link" target="_blank" rel="noopener">View on Scryfall ↗</a>
+        </div>
+      </div>
+
+      <div id="rating-bar" class="hidden">
+        <button class="rate-btn" data-rating="again" aria-label="Again (1)">Again<small id="preview-again"></small></button>
+        <button class="rate-btn" data-rating="hard" aria-label="Hard (2)">Hard<small id="preview-hard"></small></button>
+        <button class="rate-btn" data-rating="good" aria-label="Good (3)">Good<small id="preview-good"></small></button>
+        <button class="rate-btn" data-rating="easy" aria-label="Easy (4)">Easy<small id="preview-easy"></small></button>
+      </div>
+    </div>
   </div>
 
-  <div id="card-area" class="hidden">
-    <div id="card">
-      <div id="card-front">
-        <div id="front-mana" class="mana-cost"></div>
-        <div id="front-name"></div>
-        <div id="front-type"></div>
-        <button id="show-answer-btn">Show answer (Space)</button>
-      </div>
-      <div id="card-back" class="hidden">
-        <div id="back-images"></div>
-        <div id="back-oracle"></div>
-        <a id="back-scryfall-link" target="_blank" rel="noopener">View on Scryfall ↗</a>
-      </div>
-    </div>
-
-    <div id="rating-bar" class="hidden">
-      <button class="rate-btn" data-rating="again">Again<small id="preview-again"></small></button>
-      <button class="rate-btn" data-rating="hard">Hard<small id="preview-hard"></small></button>
-      <button class="rate-btn" data-rating="good">Good<small id="preview-good"></small></button>
-      <button class="rate-btn" data-rating="easy">Easy<small id="preview-easy"></small></button>
-    </div>
+  <div id="browse-view" role="tabpanel" class="hidden">
+    <div id="browse-grid"></div>
   </div>
 </main>
 

@@ -23,7 +23,13 @@ function srsLoadProgress() {
 }
 
 function srsSaveProgress(progress) {
-  localStorage.setItem(SRS_STORAGE_KEY, JSON.stringify(progress));
+  try {
+    localStorage.setItem(SRS_STORAGE_KEY, JSON.stringify(progress));
+    return true;
+  } catch (e) {
+    console.error("Failed to save progress to localStorage", e);
+    return false;
+  }
 }
 
 function srsGetState(progress, cardId) {
@@ -38,6 +44,12 @@ function srsIsDue(state) {
 
 function srsIsNew(state) {
   return state.reps === 0;
+}
+
+// A rough "graduated" threshold: reviewed at least twice and currently
+// scheduled 3+ weeks out, i.e. no longer in the fragile early-learning phase.
+function srsIsGraduated(state) {
+  return state.reps >= 2 && state.interval >= 21;
 }
 
 // Pure function: given a state and a rating, returns the next state.
@@ -78,6 +90,32 @@ function srsNextState(state, rating, now = new Date()) {
       break;
   }
   return next;
+}
+
+// Validates an imported progress object, dropping any entry that doesn't
+// look like a real CardState. Returns { valid, dropped } where valid is the
+// sanitized { [cardId]: CardState } object.
+function srsSanitizeImport(raw) {
+  const valid = {};
+  let dropped = 0;
+  if (!raw || typeof raw !== "object") return { valid, dropped: 0 };
+
+  for (const [cardId, state] of Object.entries(raw)) {
+    const looksValid =
+      state &&
+      typeof state === "object" &&
+      typeof state.ease === "number" &&
+      typeof state.interval === "number" &&
+      typeof state.reps === "number" &&
+      typeof state.lapses === "number" &&
+      (state.due === null || typeof state.due === "string");
+    if (looksValid) {
+      valid[cardId] = state;
+    } else {
+      dropped += 1;
+    }
+  }
+  return { valid, dropped };
 }
 
 function srsFormatInterval(days) {

@@ -1,13 +1,25 @@
 # MSH Limited Tricks
 
-An Anki-style flashcard trainer for every Instant and Flash-keyword card in the
-*Marvel Super Heroes* (`msh`) Magic: The Gathering set — built to help you
-remember what could be sitting in an opponent's hand during limited (draft/sealed).
+An Anki-style flashcard trainer for every Instant, Flash-keyword, and
+instant-speed-activated-ability card in the *Marvel Super Heroes* (`msh`)
+Magic: The Gathering set — built to help you remember what could be sitting
+in an opponent's hand (or already on their board) during limited (draft/sealed).
 
-Front of the card shows only the name and mana cost; you recall the effect,
-flip it, and rate yourself (Again / Hard / Good / Easy) like Anki. A simplified
+Front of the card shows the name and mana cost; you recall the effect, flip
+it, and rate yourself (Again / Hard / Good / Easy) like Anki. A simplified
 SM-2 scheduler tracks per-card intervals in the browser's `localStorage` — no
 backend, no account, no sync between devices.
+
+**Study tab**: the spaced-repetition quiz described above. Filter by color,
+card kind (Instant / Flash permanent / Activated ability), or role (combat
+trick, removal, protection, counter, card advantage, tempo permanent,
+utility). Toggle **mana-only mode** in settings to hide the card name and
+force yourself to recall a card purely from its mana cost and type — closer
+to the real "what could this open mana be" recall task during a draft.
+
+**Browse tab**: a plain filterable reference grid (name, image, oracle text,
+kind, role) for quick lookup — no quiz mechanics — for when you just want to
+look something up.
 
 ## Running locally
 
@@ -34,6 +46,18 @@ If Wizards issues errata or Scryfall adds missing prints, regenerate it with:
 ```bash
 python scripts/fetch_cards.py
 ```
+
+A scheduled GitHub Action ([`.github/workflows/refresh-cards.yml`](.github/workflows/refresh-cards.yml))
+re-runs this weekly and opens a PR if the data changed, since `msh` just
+released and Scryfall's data may still shift. New cards that show up this way
+default to `role: "utility"` until manually re-tagged in `ROLE_TAGS` in
+`scripts/fetch_cards.py` — the script prints a warning listing any untagged
+cards so you know to go add one.
+
+Card kind is one of `instant`, `flash_permanent`, or `activated_ability` (the
+last is a small hand-picked list of already-in-play permanents with an
+unrestricted, instant-speed activated ability — these can't be found with a
+single Scryfall query, see `ACTIVATED_ABILITY_IDS` in the script).
 
 ## Your progress
 

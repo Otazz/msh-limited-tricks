@@ -2,38 +2,42 @@
   {
     "id": "fd1f95bf-48ea-455a-8a6c-0249b11c8900",
     "name": "Giant Growth",
-    "mana_cost": "{G}",
     "cmc": 1.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/167/giant-growth?utm_source=api",
+    "kind": "instant",
+    "role": "combat_trick",
+    "mana_cost": "{G}",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +3/+3 until end of turn.",
     "colors": [
       "G"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Giant Growth",
         "url": "https://cards.scryfall.io/normal/front/f/d/fd1f95bf-48ea-455a-8a6c-0249b11c8900.jpg?1782681773"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/167/giant-growth?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "6e518842-ce44-4af2-8f38-89869828294a",
     "name": "Helicarrier Strike",
-    "mana_cost": "{W}",
     "cmc": 1.0,
+    "rarity": "common",
+    "keywords": [
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/15/helicarrier-strike?utm_source=api",
+    "kind": "instant",
+    "role": "removal",
+    "mana_cost": "{W}",
     "type_line": "Instant",
     "oracle_text": "Teamwork 2 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 2 or more.)\nHelicarrier Strike deals 2 damage to target attacking or blocking creature. If this spell was cast using teamwork, it deals 4 damage to that creature instead.",
     "colors": [
       "W"
-    ],
-    "rarity": "common",
-    "keywords": [
-      "Teamwork"
     ],
     "images": [
       {
@@ -41,23 +45,24 @@
         "url": "https://cards.scryfall.io/normal/front/6/e/6e518842-ce44-4af2-8f38-89869828294a.jpg?1782681899"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/15/helicarrier-strike?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "4122ae40-800d-4b6b-93c9-aa503c33f1a9",
     "name": "Panther Pounce",
-    "mana_cost": "{W}",
     "cmc": 1.0,
+    "rarity": "common",
+    "keywords": [
+      "Investigate"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/29/panther-pounce?utm_source=api",
+    "kind": "instant",
+    "role": "combat_trick",
+    "mana_cost": "{W}",
     "type_line": "Instant",
     "oracle_text": "Target player investigates. Target creature gets +1/+0 and gains flying until end of turn. Untap it. (To investigate, create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")",
     "colors": [
       "W"
-    ],
-    "rarity": "common",
-    "keywords": [
-      "Investigate"
     ],
     "images": [
       {
@@ -65,23 +70,24 @@
         "url": "https://cards.scryfall.io/normal/front/4/1/4122ae40-800d-4b6b-93c9-aa503c33f1a9.jpg?1782681887"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/29/panther-pounce?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "d739e636-681e-4423-84e3-91efd02b2c94",
     "name": "Rapid Rescue",
-    "mana_cost": "{G}",
     "cmc": 1.0,
+    "rarity": "common",
+    "keywords": [
+      "Mill"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/181/rapid-rescue?utm_source=api",
+    "kind": "instant",
+    "role": "card_advantage",
+    "mana_cost": "{G}",
     "type_line": "Instant",
     "oracle_text": "Mill two cards. You may put a permanent card from among the milled cards into your hand. You gain 2 life. (To mill two cards, put the top two cards of your library into your graveyard.)",
     "colors": [
       "G"
-    ],
-    "rarity": "common",
-    "keywords": [
-      "Mill"
     ],
     "images": [
       {
@@ -89,24 +95,25 @@
         "url": "https://cards.scryfall.io/normal/front/d/7/d739e636-681e-4423-84e3-91efd02b2c94.jpg?1782681761"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/181/rapid-rescue?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "2aa2e596-e5e0-4c60-8eea-14adda1cdaae",
     "name": "Super Speed",
-    "mana_cost": "{R}",
     "cmc": 1.0,
-    "type_line": "Enchantment — Aura",
-    "oracle_text": "Flash\nEnchant creature\nWhen this Aura enters, enchanted creature gains first strike until end of turn.\nEnchanted creature gets +1/+0 and has haste.",
-    "colors": [
-      "R"
-    ],
     "rarity": "common",
     "keywords": [
       "Enchant",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/154/super-speed?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "combat_trick",
+    "mana_cost": "{R}",
+    "type_line": "Enchantment — Aura",
+    "oracle_text": "Flash\nEnchant creature\nWhen this Aura enters, enchanted creature gains first strike until end of turn.\nEnchanted creature gets +1/+0 and has haste.",
+    "colors": [
+      "R"
     ],
     "images": [
       {
@@ -114,89 +121,93 @@
         "url": "https://cards.scryfall.io/normal/front/2/a/2aa2e596-e5e0-4c60-8eea-14adda1cdaae.jpg?1782681784"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/154/super-speed?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "8447c3d6-8c65-4d3c-81c4-609801602d06",
     "name": "Blazing Crescendo",
-    "mana_cost": "{1}{R}",
     "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/125/blazing-crescendo?utm_source=api",
+    "kind": "instant",
+    "role": "combat_trick",
+    "mana_cost": "{1}{R}",
     "type_line": "Instant",
     "oracle_text": "Target creature gets +3/+1 until end of turn.\nExile the top card of your library. Until the end of your next turn, you may play that card.",
     "colors": [
       "R"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Blazing Crescendo",
         "url": "https://cards.scryfall.io/normal/front/8/4/8447c3d6-8c65-4d3c-81c4-609801602d06.jpg?1782681808"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/125/blazing-crescendo?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "49e36cac-3999-40b3-91b3-85af4fded679",
     "name": "Dark Deed",
-    "mana_cost": "{1}{B}",
     "cmc": 2.0,
+    "rarity": "uncommon",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/93/dark-deed?utm_source=api",
+    "kind": "instant",
+    "role": "removal",
+    "mana_cost": "{1}{B}",
     "type_line": "Instant",
     "oracle_text": "Target creature gets -4/-4 until end of turn.",
     "colors": [
       "B"
     ],
-    "rarity": "uncommon",
-    "keywords": [],
     "images": [
       {
         "label": "Dark Deed",
         "url": "https://cards.scryfall.io/normal/front/4/9/49e36cac-3999-40b3-91b3-85af4fded679.jpg?1782681837"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/93/dark-deed?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "d8719b74-48ef-4f68-b59a-949edd644ddc",
     "name": "Decoy Ploy",
-    "mana_cost": "{1}{B}",
     "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/94/decoy-ploy?utm_source=api",
+    "kind": "instant",
+    "role": "card_advantage",
+    "mana_cost": "{1}{B}",
     "type_line": "Instant",
     "oracle_text": "Choose one or both —\n• Return target Villain card from your graveyard to your hand.\n• Return target Hero card from your graveyard to your hand.",
     "colors": [
       "B"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Decoy Ploy",
         "url": "https://cards.scryfall.io/normal/front/d/8/d8719b74-48ef-4f68-b59a-949edd644ddc.jpg?1782681836"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/94/decoy-ploy?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "374ffb3e-0753-4682-936a-ae6921ace475",
     "name": "HULK SMASH!",
-    "mana_cost": "{1}{R}",
     "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/135/hulk-smash!?utm_source=api",
+    "kind": "instant",
+    "role": "removal",
+    "mana_cost": "{1}{R}",
     "type_line": "Instant",
     "oracle_text": "Teamwork 4 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 4 or more.)\nChoose one. If this spell was cast using teamwork, choose both instead.\n• Destroy target noncreature artifact.\n• Target creature you control deals damage equal to its power to target creature an opponent controls.",
     "colors": [
       "R"
-    ],
-    "rarity": "common",
-    "keywords": [
-      "Teamwork"
     ],
     "images": [
       {
@@ -204,46 +215,48 @@
         "url": "https://cards.scryfall.io/normal/front/3/7/374ffb3e-0753-4682-936a-ae6921ace475.jpg?1782681799"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/135/hulk-smash!?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "88b13bc0-da54-4c3b-917c-7c8345a329f5",
     "name": "Lightning Strike",
-    "mana_cost": "{1}{R}",
     "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/142/lightning-strike?utm_source=api",
+    "kind": "instant",
+    "role": "removal",
+    "mana_cost": "{1}{R}",
     "type_line": "Instant",
     "oracle_text": "Lightning Strike deals 3 damage to any target.",
     "colors": [
       "R"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Lightning Strike",
         "url": "https://cards.scryfall.io/normal/front/8/8/88b13bc0-da54-4c3b-917c-7c8345a329f5.jpg?1782681794"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/142/lightning-strike?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "3199907b-9f24-4554-942a-8ab5a7701717",
     "name": "Night Nurse, Healer of Heroes",
-    "mana_cost": "{1}{W}",
     "cmc": 2.0,
-    "type_line": "Legendary Creature — Human Doctor Hero",
-    "oracle_text": "Flash\nLifelink\nWhen Night Nurse enters, choose target permanent card in your graveyard that was put there from anywhere this turn. Return it to your hand.",
-    "colors": [
-      "W"
-    ],
     "rarity": "uncommon",
     "keywords": [
       "Lifelink",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/26/night-nurse-healer-of-heroes?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{1}{W}",
+    "type_line": "Legendary Creature — Human Doctor Hero",
+    "oracle_text": "Flash\nLifelink\nWhen Night Nurse enters, choose target permanent card in your graveyard that was put there from anywhere this turn. Return it to your hand.",
+    "colors": [
+      "W"
     ],
     "images": [
       {
@@ -251,24 +264,48 @@
         "url": "https://cards.scryfall.io/normal/front/3/1/3199907b-9f24-4554-942a-8ab5a7701717.jpg?1782681890"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/26/night-nurse-healer-of-heroes?utm_source=api",
-    "is_instant": false
+    "back_face": null
+  },
+  {
+    "id": "f9b9f9d6-b50c-4b29-80be-284ba773c70b",
+    "name": "Raft Security Officer",
+    "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/33/raft-security-officer?utm_source=api",
+    "kind": "activated_ability",
+    "role": "utility",
+    "mana_cost": "{1}{W}",
+    "type_line": "Creature — Human Soldier",
+    "oracle_text": "{2}, {T}: Tap target creature. This ability costs {1} less to activate if it targets a creature with power 3 or less.",
+    "colors": [
+      "W"
+    ],
+    "images": [
+      {
+        "label": "Raft Security Officer",
+        "url": "https://cards.scryfall.io/normal/front/f/9/f9b9f9d6-b50c-4b29-80be-284ba773c70b.jpg?1782681887"
+      }
+    ],
+    "back_face": null
   },
   {
     "id": "db4557ad-4141-4dae-870e-a587506f4914",
     "name": "Stolen Stark Tech",
-    "mana_cost": "{1}{B}",
     "cmc": 2.0,
-    "type_line": "Artifact — Equipment",
-    "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\nEquipped creature gets +1/+0.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
-    "colors": [
-      "B"
-    ],
     "rarity": "common",
     "keywords": [
       "Equip",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/114/stolen-stark-tech?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "protection",
+    "mana_cost": "{1}{B}",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. That creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)\nEquipped creature gets +1/+0.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+    "colors": [
+      "B"
     ],
     "images": [
       {
@@ -276,24 +313,25 @@
         "url": "https://cards.scryfall.io/normal/front/d/b/db4557ad-4141-4dae-870e-a587506f4914.jpg?1782681818"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/114/stolen-stark-tech?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "e87f3a26-c2e5-47c7-b19d-bc01cb794805",
     "name": "Super Suit",
-    "mana_cost": "{1}{U}",
     "cmc": 2.0,
-    "type_line": "Artifact — Equipment",
-    "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. Untap that creature.\nEquipped creature gets +1/+2.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
-    "colors": [
-      "U"
-    ],
     "rarity": "common",
     "keywords": [
       "Equip",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/78/super-suit?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "combat_trick",
+    "mana_cost": "{1}{U}",
+    "type_line": "Artifact — Equipment",
+    "oracle_text": "Flash\nWhen this Equipment enters, attach it to target creature you control. Untap that creature.\nEquipped creature gets +1/+2.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+    "colors": [
+      "U"
     ],
     "images": [
       {
@@ -301,23 +339,24 @@
         "url": "https://cards.scryfall.io/normal/front/e/8/e87f3a26-c2e5-47c7-b19d-bc01cb794805.jpg?1782681847"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/78/super-suit?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "1af5a1ca-3d11-45e3-ba12-c455c5a7fea1",
     "name": "Super Villain Lockup",
-    "mana_cost": "{1}{W}",
     "cmc": 2.0,
+    "rarity": "uncommon",
+    "keywords": [
+      "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/37/super-villain-lockup?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "removal",
+    "mana_cost": "{1}{W}",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nWhen this enchantment enters, exile target tapped creature an opponent controls until this enchantment leaves the battlefield.",
     "colors": [
       "W"
-    ],
-    "rarity": "uncommon",
-    "keywords": [
-      "Flash"
     ],
     "images": [
       {
@@ -325,45 +364,47 @@
         "url": "https://cards.scryfall.io/normal/front/1/a/1af5a1ca-3d11-45e3-ba12-c455c5a7fea1.jpg?1782681882"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/37/super-villain-lockup?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "5199d708-8b11-461d-9e91-3e8cd70906f7",
     "name": "Take Up the Shield",
-    "mana_cost": "{1}{W}",
     "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/39/take-up-the-shield?utm_source=api",
+    "kind": "instant",
+    "role": "protection",
+    "mana_cost": "{1}{W}",
     "type_line": "Instant",
     "oracle_text": "Put a +1/+1 counter on target creature. It gains lifelink and indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
     "colors": [
       "W"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Take Up the Shield",
         "url": "https://cards.scryfall.io/normal/front/5/1/5199d708-8b11-461d-9e91-3e8cd70906f7.jpg?1782681878"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/39/take-up-the-shield?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "db1c7a71-3d01-4f2a-9b25-2a19bb0d1a56",
     "name": "Team Tactics",
-    "mana_cost": "{1}{R}",
     "cmc": 2.0,
+    "rarity": "uncommon",
+    "keywords": [
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/155/team-tactics?utm_source=api",
+    "kind": "instant",
+    "role": "combat_trick",
+    "mana_cost": "{1}{R}",
     "type_line": "Instant",
     "oracle_text": "Teamwork 1 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 1 or more.)\nTarget creature gains double strike until end of turn. If this spell was cast using teamwork, that creature also gains trample until end of turn.",
     "colors": [
       "R"
-    ],
-    "rarity": "uncommon",
-    "keywords": [
-      "Teamwork"
     ],
     "images": [
       {
@@ -371,24 +412,25 @@
         "url": "https://cards.scryfall.io/normal/front/d/b/db1c7a71-3d01-4f2a-9b25-2a19bb0d1a56.jpg?1782681783"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/155/team-tactics?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc",
     "name": "The Wondrous Wasp",
-    "mana_cost": "{1}{U}",
     "cmc": 2.0,
-    "type_line": "Legendary Creature — Human Hero",
-    "oracle_text": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
-    "colors": [
-      "U"
-    ],
     "rarity": "rare",
     "keywords": [
       "Flying",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/84/the-wondrous-wasp?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{1}{U}",
+    "type_line": "Legendary Creature — Human Hero",
+    "oracle_text": "Flash\nFlying\nWasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield.",
+    "colors": [
+      "U"
     ],
     "images": [
       {
@@ -396,24 +438,25 @@
         "url": "https://cards.scryfall.io/normal/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1782681840"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/84/the-wondrous-wasp?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "73c11aea-4fa4-438d-b886-2fafa60c82f9",
     "name": "Tigra, Feline Fury",
-    "mana_cost": "{1}{G}",
     "cmc": 2.0,
-    "type_line": "Legendary Creature — Cat Human Hero",
-    "oracle_text": "Flash\nTrample\nWhenever you gain life, put a +1/+1 counter on Tigra.",
-    "colors": [
-      "G"
-    ],
     "rarity": "uncommon",
     "keywords": [
       "Trample",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/191/tigra-feline-fury?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{1}{G}",
+    "type_line": "Legendary Creature — Cat Human Hero",
+    "oracle_text": "Flash\nTrample\nWhenever you gain life, put a +1/+1 counter on Tigra.",
+    "colors": [
+      "G"
     ],
     "images": [
       {
@@ -421,45 +464,47 @@
         "url": "https://cards.scryfall.io/normal/front/7/3/73c11aea-4fa4-438d-b886-2fafa60c82f9.jpg?1782681752"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/191/tigra-feline-fury?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "5604cee1-a2ea-48ed-88f4-6878bd053fc8",
     "name": "Vision of Love",
-    "mana_cost": "{1}{R}",
     "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/158/vision-of-love?utm_source=api",
+    "kind": "instant",
+    "role": "card_advantage",
+    "mana_cost": "{1}{R}",
     "type_line": "Instant",
     "oracle_text": "You may sacrifice an artifact or discard a card. If you do, draw two cards.",
     "colors": [
       "R"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Vision of Love",
         "url": "https://cards.scryfall.io/normal/front/5/6/5604cee1-a2ea-48ed-88f4-6878bd053fc8.jpg?1782681779"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/158/vision-of-love?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "13b70321-75bd-4d44-b9f6-5f062a5dda0f",
     "name": "We Say Thee Nay!",
-    "mana_cost": "{1}{U}",
     "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/82/we-say-thee-nay!?utm_source=api",
+    "kind": "instant",
+    "role": "counter",
+    "mana_cost": "{1}{U}",
     "type_line": "Instant — Arcane",
     "oracle_text": "Teamwork 2 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 2 or more.)\nCounter target spell unless its controller pays {2}. Counter that spell unless its controller pays {4} instead if this spell was cast using teamwork.",
     "colors": [
       "U"
-    ],
-    "rarity": "common",
-    "keywords": [
-      "Teamwork"
     ],
     "images": [
       {
@@ -467,23 +512,24 @@
         "url": "https://cards.scryfall.io/normal/front/1/3/13b70321-75bd-4d44-b9f6-5f062a5dda0f.jpg?1782681846"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/82/we-say-thee-nay!?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "dbee18af-9ade-4251-81a1-f6e7ffbf480f",
     "name": "Widow's Bite",
-    "mana_cost": "{1}{B}",
     "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/122/widows-bite?utm_source=api",
+    "kind": "instant",
+    "role": "removal",
+    "mana_cost": "{1}{B}",
     "type_line": "Instant",
     "oracle_text": "Teamwork 3 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 3 or more.)\nChoose one. If this spell was cast using teamwork, choose both instead.\n• Target creature gains deathtouch until end of turn.\n• Target creature gets -2/-2 until end of turn.",
     "colors": [
       "B"
-    ],
-    "rarity": "common",
-    "keywords": [
-      "Teamwork"
     ],
     "images": [
       {
@@ -491,46 +537,72 @@
         "url": "https://cards.scryfall.io/normal/front/d/b/dbee18af-9ade-4251-81a1-f6e7ffbf480f.jpg?1782681809"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/122/widows-bite?utm_source=api",
-    "is_instant": true
+    "back_face": null
+  },
+  {
+    "id": "fd1f0b5f-5e0e-4da1-ab54-a62db5af3591",
+    "name": "Bullseye, Death Dealer",
+    "cmc": 3.0,
+    "rarity": "uncommon",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/209/bullseye-death-dealer?utm_source=api",
+    "kind": "activated_ability",
+    "role": "removal",
+    "mana_cost": "{2}{B/R}",
+    "type_line": "Legendary Creature — Human Assassin Villain",
+    "oracle_text": "When Bullseye enters, you may sacrifice an artifact or discard a nonland card. When you do, Bullseye deals 2 damage to any target.\n{3}, {T}, Sacrifice an artifact or discard a nonland card: Bullseye deals 2 damage to any target.",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "images": [
+      {
+        "label": "Bullseye, Death Dealer",
+        "url": "https://cards.scryfall.io/normal/front/f/d/fd1f0b5f-5e0e-4da1-ab54-a62db5af3591.jpg?1782681737"
+      }
+    ],
+    "back_face": null
   },
   {
     "id": "36e9a6e9-1f9d-4860-97ee-f01e66f8eb4d",
     "name": "Depower",
-    "mana_cost": "{2}{U}",
     "cmc": 3.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/50/depower?utm_source=api",
+    "kind": "instant",
+    "role": "combat_trick",
+    "mana_cost": "{2}{U}",
     "type_line": "Instant",
     "oracle_text": "This spell costs {2} less to cast if it targets an attacking creature.\nTarget creature gets -4/-0 until end of turn.\nDraw a card.",
     "colors": [
       "U"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Depower",
         "url": "https://cards.scryfall.io/normal/front/3/6/36e9a6e9-1f9d-4860-97ee-f01e66f8eb4d.jpg?1782681869"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/50/depower?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "c22bb4d5-6b6f-4c43-b005-48ae4042739d",
     "name": "Ghost, Spectral Saboteur",
-    "mana_cost": "{2}{U/B}",
     "cmc": 3.0,
+    "rarity": "uncommon",
+    "keywords": [
+      "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/214/ghost-spectral-saboteur?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{2}{U/B}",
     "type_line": "Legendary Creature — Human Rogue Villain",
     "oracle_text": "Flash\nIntangibility — Ghost can't be blocked.",
     "colors": [
       "B",
       "U"
-    ],
-    "rarity": "uncommon",
-    "keywords": [
-      "Flash"
     ],
     "images": [
       {
@@ -538,70 +610,73 @@
         "url": "https://cards.scryfall.io/normal/front/c/2/c22bb4d5-6b6f-4c43-b005-48ae4042739d.jpg?1782681732"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/214/ghost-spectral-saboteur?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "50a6aa80-79a3-46f3-9cc1-5bf663b64976",
     "name": "Hire a Crew",
-    "mana_cost": "{2}{R}",
     "cmc": 3.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/134/hire-a-crew?utm_source=api",
+    "kind": "instant",
+    "role": "combat_trick",
+    "mana_cost": "{2}{R}",
     "type_line": "Instant",
     "oracle_text": "Create a 2/1 black Villain creature token with menace, then creatures you control get +1/+0 until end of turn. (A creature with menace can't be blocked except by two or more creatures.)",
     "colors": [
       "R"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Hire a Crew",
         "url": "https://cards.scryfall.io/normal/front/5/0/50a6aa80-79a3-46f3-9cc1-5bf663b64976.jpg?1782681800"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/134/hire-a-crew?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "9c401abb-5978-41c0-962b-0432f9433929",
     "name": "I Am Iron Man",
-    "mana_cost": "{2}{U}",
     "cmc": 3.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/58/i-am-iron-man?utm_source=api",
+    "kind": "instant",
+    "role": "combat_trick",
+    "mana_cost": "{2}{U}",
     "type_line": "Instant",
     "oracle_text": "Until end of turn, target artifact or creature becomes an artifact creature with base power and toughness 4/4 and gains flying.\nDraw a card.",
     "colors": [
       "U"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "I Am Iron Man",
         "url": "https://cards.scryfall.io/normal/front/9/c/9c401abb-5978-41c0-962b-0432f9433929.jpg?1782681867"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/58/i-am-iron-man?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "add7d3ce-aa58-4da0-8c2a-cfd01c3a8975",
     "name": "King T'Challa // Black Panther, Hope Enduring",
-    "mana_cost": "{1}{W}{U}",
     "cmc": 3.0,
-    "type_line": "Legendary Creature — Human Noble Hero",
-    "oracle_text": "Flash\nWhenever a player draws their second card each turn, you draw a card.\n{4}{W}{U}: Transform King T'Challa. Activate only as a sorcery.",
-    "colors": [
-      "U",
-      "W"
-    ],
     "rarity": "mythic",
     "keywords": [
       "Transform",
       "Double strike",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/219/king-tchalla-black-panther-hope-enduring?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{1}{W}{U}",
+    "type_line": "Legendary Creature — Human Noble Hero",
+    "oracle_text": "Flash\nWhenever a player draws their second card each turn, you draw a card.\n{4}{W}{U}: Transform King T'Challa. Activate only as a sorcery.",
+    "colors": [
+      "U",
+      "W"
     ],
     "images": [
       {
@@ -618,45 +693,47 @@
       "type_line": "Legendary Creature — Human Warrior Hero",
       "oracle_text": "Flash\nDouble strike\nPrevent all damage that would be dealt to Black Panther.\nWhenever Black Panther deals combat damage to a player, draw a card.",
       "mana_cost": "{4}{W}{U}"
-    },
-    "scryfall_uri": "https://scryfall.com/card/msh/219/king-tchalla-black-panther-hope-enduring?utm_source=api",
-    "is_instant": false
+    }
   },
   {
     "id": "a33a4cb4-1b57-47ca-8e5e-58ff46a6e0ce",
     "name": "Punishing Punch",
-    "mana_cost": "{2}{G}",
     "cmc": 3.0,
+    "rarity": "uncommon",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/180/punishing-punch?utm_source=api",
+    "kind": "instant",
+    "role": "removal",
+    "mana_cost": "{2}{G}",
     "type_line": "Instant",
     "oracle_text": "This spell costs {2} less to cast if there are two or more creature cards in your graveyard.\nTarget creature you control deals damage equal to twice its power to target creature an opponent controls.",
     "colors": [
       "G"
     ],
-    "rarity": "uncommon",
-    "keywords": [],
     "images": [
       {
         "label": "Punishing Punch",
         "url": "https://cards.scryfall.io/normal/front/a/3/a33a4cb4-1b57-47ca-8e5e-58ff46a6e0ce.jpg?1782681762"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/180/punishing-punch?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "c08f8163-319a-4a31-b15a-93974cacd5b7",
     "name": "Red Guardian, Super-Soldier",
-    "mana_cost": "{2}{W}",
     "cmc": 3.0,
+    "rarity": "uncommon",
+    "keywords": [
+      "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/34/red-guardian-super-soldier?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "removal",
+    "mana_cost": "{2}{W}",
     "type_line": "Legendary Creature — Human Soldier Villain",
     "oracle_text": "Flash\nWhen Red Guardian enters, destroy target creature an opponent controls that dealt damage this turn.",
     "colors": [
       "W"
-    ],
-    "rarity": "uncommon",
-    "keywords": [
-      "Flash"
     ],
     "images": [
       {
@@ -664,25 +741,26 @@
         "url": "https://cards.scryfall.io/normal/front/c/0/c08f8163-319a-4a31-b15a-93974cacd5b7.jpg?1782681886"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/34/red-guardian-super-soldier?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "8e651410-b829-4468-b866-a9dd15f909ad",
     "name": "S.H.I.E.L.D. Flying Car",
-    "mana_cost": "{2}{U}",
     "cmc": 3.0,
-    "type_line": "Artifact — Vehicle",
-    "oracle_text": "Flash\nFlying\nWhen this Vehicle enters, exile up to one target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.\nCrew 1",
-    "colors": [
-      "U"
-    ],
     "rarity": "rare",
     "keywords": [
       "Flying",
       "Crew",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/74/shield-flying-car?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "protection",
+    "mana_cost": "{2}{U}",
+    "type_line": "Artifact — Vehicle",
+    "oracle_text": "Flash\nFlying\nWhen this Vehicle enters, exile up to one target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.\nCrew 1",
+    "colors": [
+      "U"
     ],
     "images": [
       {
@@ -690,26 +768,27 @@
         "url": "https://cards.scryfall.io/normal/front/8/e/8e651410-b829-4468-b866-a9dd15f909ad.jpg?1782681849"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/74/shield-flying-car?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "e5db6968-1ca3-46bd-8cf9-e2c411ab29c1",
     "name": "Spider-Man, To the Rescue",
-    "mana_cost": "{2}{G/W}",
     "cmc": 3.0,
-    "type_line": "Legendary Creature — Spider Human Hero",
-    "oracle_text": "Flash\nVigilance, reach\nNo One Dies! — When Spider-Man enters, you may tap him. When you do, another target nonattacking creature you control gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
-    "colors": [
-      "G",
-      "W"
-    ],
     "rarity": "uncommon",
     "keywords": [
       "Reach",
       "Vigilance",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/228/spider-man-to-the-rescue?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "protection",
+    "mana_cost": "{2}{G/W}",
+    "type_line": "Legendary Creature — Spider Human Hero",
+    "oracle_text": "Flash\nVigilance, reach\nNo One Dies! — When Spider-Man enters, you may tap him. When you do, another target nonattacking creature you control gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+    "colors": [
+      "G",
+      "W"
     ],
     "images": [
       {
@@ -717,68 +796,99 @@
         "url": "https://cards.scryfall.io/normal/front/e/5/e5db6968-1ca3-46bd-8cf9-e2c411ab29c1.jpg?1782681718"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/228/spider-man-to-the-rescue?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "5f4f77e5-0019-4a5f-bae6-136121946929",
     "name": "Thirst for Knowledge",
-    "mana_cost": "{2}{U}",
     "cmc": 3.0,
+    "rarity": "uncommon",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/79/thirst-for-knowledge?utm_source=api",
+    "kind": "instant",
+    "role": "card_advantage",
+    "mana_cost": "{2}{U}",
     "type_line": "Instant",
     "oracle_text": "Draw three cards. Then discard two cards unless you discard an artifact card.",
     "colors": [
       "U"
     ],
-    "rarity": "uncommon",
-    "keywords": [],
     "images": [
       {
         "label": "Thirst for Knowledge",
         "url": "https://cards.scryfall.io/normal/front/5/f/5f4f77e5-0019-4a5f-bae6-136121946929.jpg?1782681847"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/79/thirst-for-knowledge?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "f8f1e4f9-7415-437f-b694-ecbdd76db114",
     "name": "Visions of Villainy",
-    "mana_cost": "{2}{B}",
     "cmc": 3.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/120/visions-of-villainy?utm_source=api",
+    "kind": "instant",
+    "role": "card_advantage",
+    "mana_cost": "{2}{B}",
     "type_line": "Instant",
     "oracle_text": "This spell costs {1} less to cast if you control a Villain.\nYou draw two cards and lose 2 life.",
     "colors": [
       "B"
     ],
-    "rarity": "common",
-    "keywords": [],
     "images": [
       {
         "label": "Visions of Villainy",
         "url": "https://cards.scryfall.io/normal/front/f/8/f8f1e4f9-7415-437f-b694-ecbdd76db114.jpg?1782681812"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/120/visions-of-villainy?utm_source=api",
-    "is_instant": true
+    "back_face": null
+  },
+  {
+    "id": "2c6ab9bb-dba2-4b5b-a4d9-54735f65ac21",
+    "name": "Abomination, Terrifying Titan",
+    "cmc": 4.0,
+    "rarity": "uncommon",
+    "keywords": [
+      "Power-up",
+      "Trample",
+      "Fight"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/198/abomination-terrifying-titan?utm_source=api",
+    "kind": "activated_ability",
+    "role": "removal",
+    "mana_cost": "{3}{R/G}",
+    "type_line": "Legendary Creature — Gamma Villain",
+    "oracle_text": "Trample\nPower-up — {5}{R/G}{R/G}: Put a +1/+1 counter on Abomination. He fights up to one target creature an opponent controls. (Activate each power-up ability only once. Reduce the cost by his mana cost if he entered this turn.)",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "images": [
+      {
+        "label": "Abomination, Terrifying Titan",
+        "url": "https://cards.scryfall.io/normal/front/2/c/2c6ab9bb-dba2-4b5b-a4d9-54735f65ac21.jpg?1782681747"
+      }
+    ],
+    "back_face": null
   },
   {
     "id": "da529bb3-725b-41aa-ac34-b4117ff5d95b",
     "name": "Giant-Sized Flying Ant",
-    "mana_cost": "{3}{U}",
     "cmc": 4.0,
-    "type_line": "Creature — Insect",
-    "oracle_text": "Flash\nFlying\nWhen this creature enters, choose one —\n• Tap target nonland permanent.\n• Untap target nonland permanent.",
-    "colors": [
-      "U"
-    ],
     "rarity": "common",
     "keywords": [
       "Flying",
       "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/56/giant-sized-flying-ant?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "utility",
+    "mana_cost": "{3}{U}",
+    "type_line": "Creature — Insect",
+    "oracle_text": "Flash\nFlying\nWhen this creature enters, choose one —\n• Tap target nonland permanent.\n• Untap target nonland permanent.",
+    "colors": [
+      "U"
     ],
     "images": [
       {
@@ -786,23 +896,24 @@
         "url": "https://cards.scryfall.io/normal/front/d/a/da529bb3-725b-41aa-ac34-b4117ff5d95b.jpg?1782681867"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/56/giant-sized-flying-ant?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "9e0034dd-396e-46af-b931-0daa25da4406",
     "name": "Hour of Defeat",
-    "mana_cost": "{3}{B}",
     "cmc": 4.0,
+    "rarity": "common",
+    "keywords": [
+      "Surveil"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/99/hour-of-defeat?utm_source=api",
+    "kind": "instant",
+    "role": "removal",
+    "mana_cost": "{3}{B}",
     "type_line": "Instant",
     "oracle_text": "Destroy target creature. Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
     "colors": [
       "B"
-    ],
-    "rarity": "common",
-    "keywords": [
-      "Surveil"
     ],
     "images": [
       {
@@ -810,24 +921,25 @@
         "url": "https://cards.scryfall.io/normal/front/9/e/9e0034dd-396e-46af-b931-0daa25da4406.jpg?1782681829"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/99/hour-of-defeat?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "a0325cb5-4c43-418a-8f1b-cf5bf29e74d7",
     "name": "Spider-Woman, Secret Agent",
-    "mana_cost": "{3}{W/U}",
     "cmc": 4.0,
+    "rarity": "uncommon",
+    "keywords": [
+      "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/229/spider-woman-secret-agent?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{3}{W/U}",
     "type_line": "Legendary Creature — Spider Human Spy Hero",
     "oracle_text": "Flash\nWhen Spider-Woman enters, tap target creature an opponent controls. That creature can't become untapped for as long as you control Spider-Woman.",
     "colors": [
       "U",
       "W"
-    ],
-    "rarity": "uncommon",
-    "keywords": [
-      "Flash"
     ],
     "images": [
       {
@@ -835,23 +947,49 @@
         "url": "https://cards.scryfall.io/normal/front/a/0/a0325cb5-4c43-418a-8f1b-cf5bf29e74d7.jpg?1782681717"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/229/spider-woman-secret-agent?utm_source=api",
-    "is_instant": false
+    "back_face": null
+  },
+  {
+    "id": "11fc8221-756a-4919-9272-38793e9c1ad9",
+    "name": "Super-Skrull",
+    "cmc": 4.0,
+    "rarity": "rare",
+    "keywords": [
+      "Flying"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/115/super-skrull?utm_source=api",
+    "kind": "activated_ability",
+    "role": "removal",
+    "mana_cost": "{1}{B}{B}{B}",
+    "type_line": "Legendary Creature — Skrull Shapeshifter Villain",
+    "oracle_text": "Flying\n{2}{W}: Create a 0/4 colorless Wall creature token with defender.\n{3}{G}: Super-Skrull gets +4/+4 until end of turn.\n{4}{R}: Super-Skrull deals 4 damage to target creature.\n{5}{U}: Target player draws four cards.",
+    "colors": [
+      "B"
+    ],
+    "images": [
+      {
+        "label": "Super-Skrull",
+        "url": "https://cards.scryfall.io/normal/front/1/1/11fc8221-756a-4919-9272-38793e9c1ad9.jpg?1782681818"
+      }
+    ],
+    "back_face": null
   },
   {
     "id": "f498c1a4-54d2-4e87-952f-8cf7e408930c",
     "name": "Thunderbolts Conspiracy",
-    "mana_cost": "{3}{B}",
     "cmc": 4.0,
+    "rarity": "rare",
+    "keywords": [
+      "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/117/thunderbolts-conspiracy?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{3}{B}",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nWhenever a Villain you control dies, return it to the battlefield under its owner's control with a finality counter on it. That creature is a Hero in addition to its other types. (If a creature with a finality counter on it would die, exile it instead.)",
     "colors": [
       "B"
-    ],
-    "rarity": "rare",
-    "keywords": [
-      "Flash"
     ],
     "images": [
       {
@@ -859,45 +997,47 @@
         "url": "https://cards.scryfall.io/normal/front/f/4/f498c1a4-54d2-4e87-952f-8cf7e408930c.jpg?1782681816"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/117/thunderbolts-conspiracy?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "60f02fbf-1416-48a3-bf94-f27509f6983a",
     "name": "Truck Toss",
-    "mana_cost": "{2}{R}{R}",
     "cmc": 4.0,
+    "rarity": "uncommon",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/157/truck-toss?utm_source=api",
+    "kind": "instant",
+    "role": "removal",
+    "mana_cost": "{2}{R}{R}",
     "type_line": "Instant",
     "oracle_text": "This spell costs {2} less to cast if you control a Vehicle.\nTruck Toss deals 4 damage to any target.",
     "colors": [
       "R"
     ],
-    "rarity": "uncommon",
-    "keywords": [],
     "images": [
       {
         "label": "Truck Toss",
         "url": "https://cards.scryfall.io/normal/front/6/0/60f02fbf-1416-48a3-bf94-f27509f6983a.jpg?1782681782"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/157/truck-toss?utm_source=api",
-    "is_instant": true
+    "back_face": null
   },
   {
     "id": "bf736399-af74-4f52-9159-67ea67d0cf83",
     "name": "Avengers Assemble!",
-    "mana_cost": "{4}{W}",
     "cmc": 5.0,
+    "rarity": "mythic",
+    "keywords": [
+      "Flash"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/6/avengers-assemble!?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{4}{W}",
     "type_line": "Enchantment",
     "oracle_text": "Flash\nHeroes you control get +2/+2.\nAt the beginning of each end step, if you attacked with a Hero this turn or a Hero entered the battlefield under your control this turn, draw a card.",
     "colors": [
       "W"
-    ],
-    "rarity": "mythic",
-    "keywords": [
-      "Flash"
     ],
     "images": [
       {
@@ -905,20 +1045,12 @@
         "url": "https://cards.scryfall.io/normal/front/b/f/bf736399-af74-4f52-9159-67ea67d0cf83.jpg?1782681908"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/6/avengers-assemble!?utm_source=api",
-    "is_instant": false
+    "back_face": null
   },
   {
     "id": "eb098550-22e6-4079-8c59-ed9ec2f764e3",
     "name": "Captain Marvel, Earth's Protector",
-    "mana_cost": "{3}{W}{W}",
     "cmc": 5.0,
-    "type_line": "Legendary Creature — Human Kree Hero",
-    "oracle_text": "Flash\nFlying, lifelink\nPower-up — {5}{W}{W}: Put a +1/+1 counter and an indestructible counter on Captain Marvel. (Activate each power-up ability only once. Reduce the cost by her mana cost if she entered this turn.)",
-    "colors": [
-      "W"
-    ],
     "rarity": "mythic",
     "keywords": [
       "Flying",
@@ -926,14 +1058,21 @@
       "Lifelink",
       "Flash"
     ],
+    "scryfall_uri": "https://scryfall.com/card/msh/11/captain-marvel-earths-protector?utm_source=api",
+    "kind": "flash_permanent",
+    "role": "tempo_permanent",
+    "mana_cost": "{3}{W}{W}",
+    "type_line": "Legendary Creature — Human Kree Hero",
+    "oracle_text": "Flash\nFlying, lifelink\nPower-up — {5}{W}{W}: Put a +1/+1 counter and an indestructible counter on Captain Marvel. (Activate each power-up ability only once. Reduce the cost by her mana cost if she entered this turn.)",
+    "colors": [
+      "W"
+    ],
     "images": [
       {
         "label": "Captain Marvel, Earth's Protector",
         "url": "https://cards.scryfall.io/normal/front/e/b/eb098550-22e6-4079-8c59-ed9ec2f764e3.jpg?1782681906"
       }
     ],
-    "back_face": null,
-    "scryfall_uri": "https://scryfall.com/card/msh/11/captain-marvel-earths-protector?utm_source=api",
-    "is_instant": false
+    "back_face": null
   }
 ]
