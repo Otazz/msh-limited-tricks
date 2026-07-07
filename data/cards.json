@@ -23,6 +23,32 @@
     "back_face": null
   },
   {
+    "id": "152a7b5b-2d95-45d3-8fd9-0ca1d5a79f8b",
+    "name": "Go Nuts!",
+    "cmc": 1.0,
+    "rarity": "common",
+    "keywords": [
+      "Fight",
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/168/go-nuts!?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{G}",
+    "type_line": "Sorcery",
+    "oracle_text": "Teamwork 3 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 3 or more.)\nChoose one. If this spell was cast using teamwork, choose both instead.\n• Put a +1/+1 counter on target creature.\n• Target creature you control fights target creature an opponent controls.",
+    "colors": [
+      "G"
+    ],
+    "images": [
+      {
+        "label": "Go Nuts!",
+        "url": "https://cards.scryfall.io/normal/front/1/5/152a7b5b-2d95-45d3-8fd9-0ca1d5a79f8b.jpg?1782681772"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "6e518842-ce44-4af2-8f38-89869828294a",
     "name": "Helicarrier Strike",
     "cmc": 1.0,
@@ -193,6 +219,31 @@
     "back_face": null
   },
   {
+    "id": "af6bc9d2-5783-489a-8963-af65f54f4f17",
+    "name": "Guerrilla Gorilla",
+    "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [
+      "Reach"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/169/guerrilla-gorilla?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{1}{G}",
+    "type_line": "Creature — Ape Soldier Hero",
+    "oracle_text": "Reach\nSacrifice this creature: Destroy target noncreature artifact or noncreature enchantment. Activate only as a sorcery.",
+    "colors": [
+      "G"
+    ],
+    "images": [
+      {
+        "label": "Guerrilla Gorilla",
+        "url": "https://cards.scryfall.io/normal/front/a/f/af6bc9d2-5783-489a-8963-af65f54f4f17.jpg?1782681772"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "374ffb3e-0753-4682-936a-ae6921ace475",
     "name": "HULK SMASH!",
     "cmc": 2.0,
@@ -241,6 +292,31 @@
     "back_face": null
   },
   {
+    "id": "98df64ca-39c3-47e6-8143-4106c8e9cf59",
+    "name": "Murdock's Crusade",
+    "cmc": 2.0,
+    "rarity": "common",
+    "keywords": [
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/24/murdocks-crusade?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{1}{W}",
+    "type_line": "Sorcery",
+    "oracle_text": "Teamwork 4 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 4 or more.)\nChoose one. If this spell was cast using teamwork, choose both instead.\n• Street Justice — Exile target creature with toughness 4 or greater.\n• Legal Justice — Exile target enchantment with mana value 4 or greater.",
+    "colors": [
+      "W"
+    ],
+    "images": [
+      {
+        "label": "Murdock's Crusade",
+        "url": "https://cards.scryfall.io/normal/front/9/8/98df64ca-39c3-47e6-8143-4106c8e9cf59.jpg?1782681895"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "3199907b-9f24-4554-942a-8ab5a7701717",
     "name": "Night Nurse, Healer of Heroes",
     "cmc": 2.0,
@@ -262,6 +338,29 @@
       {
         "label": "Night Nurse, Healer of Heroes",
         "url": "https://cards.scryfall.io/normal/front/3/1/3199907b-9f24-4554-942a-8ab5a7701717.jpg?1782681890"
+      }
+    ],
+    "back_face": null
+  },
+  {
+    "id": "f85a77d2-e11e-44bc-a1e7-d783cd49d714",
+    "name": "Photon Blast Barrage",
+    "cmc": 2.0,
+    "rarity": "uncommon",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/147/photon-blast-barrage?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{X}{R}{R}",
+    "type_line": "Sorcery",
+    "oracle_text": "When you cast this spell, copy it X times. You may choose new targets for the copies.\nPhoton Blast Barrage deals 1 damage to target creature.",
+    "colors": [
+      "R"
+    ],
+    "images": [
+      {
+        "label": "Photon Blast Barrage",
+        "url": "https://cards.scryfall.io/normal/front/f/8/f85a77d2-e11e-44bc-a1e7-d783cd49d714.jpg?1782681789"
       }
     ],
     "back_face": null
@@ -415,6 +514,30 @@
     "back_face": null
   },
   {
+    "id": "4d8c8ceb-84cd-46d2-9230-ab6ca4569334",
+    "name": "The Ruinous Wrecking Crew",
+    "cmc": 2.0,
+    "rarity": "rare",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/224/the-ruinous-wrecking-crew?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{X}{B}{R}",
+    "type_line": "Legendary Creature — Human Villain",
+    "oracle_text": "The Ruinous Wrecking Crew enters with X +1/+1 counters on it.\nWhen The Ruinous Wrecking Crew enters, choose up to X —\n• Discard a card, then draw a card.\n• Target opponent loses 2 life.\n• Destroy target token.\n• Each player sacrifices a creature of their choice.",
+    "colors": [
+      "B",
+      "R"
+    ],
+    "images": [
+      {
+        "label": "The Ruinous Wrecking Crew",
+        "url": "https://cards.scryfall.io/normal/front/4/d/4d8c8ceb-84cd-46d2-9230-ab6ca4569334.jpg?1782681723"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc",
     "name": "The Wondrous Wasp",
     "cmc": 2.0,
@@ -540,6 +663,29 @@
     "back_face": null
   },
   {
+    "id": "72d3e750-870b-497d-80d7-e3df097db554",
+    "name": "Avengers Disassembled",
+    "cmc": 3.0,
+    "rarity": "rare",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/124/avengers-disassembled?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{1}{R}{R}",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose one or both —\n• Avengers Disassembled deals 3 damage to each creature.\n• Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+    "colors": [
+      "R"
+    ],
+    "images": [
+      {
+        "label": "Avengers Disassembled",
+        "url": "https://cards.scryfall.io/normal/front/7/2/72d3e750-870b-497d-80d7-e3df097db554.jpg?1782681809"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "fd1f0b5f-5e0e-4da1-ab54-a62db5af3591",
     "name": "Bullseye, Death Dealer",
     "cmc": 3.0,
@@ -564,6 +710,31 @@
     "back_face": null
   },
   {
+    "id": "d895d5a1-d382-438b-8551-e142bb5142af",
+    "name": "Cruel Alliance",
+    "cmc": 3.0,
+    "rarity": "common",
+    "keywords": [
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/92/cruel-alliance?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{2}{B}",
+    "type_line": "Sorcery",
+    "oracle_text": "Teamwork 2 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 2 or more.)\nExile target creature with mana value 3 or less. If this spell was cast using teamwork, instead exile target creature and you gain 3 life.",
+    "colors": [
+      "B"
+    ],
+    "images": [
+      {
+        "label": "Cruel Alliance",
+        "url": "https://cards.scryfall.io/normal/front/d/8/d895d5a1-d382-438b-8551-e142bb5142af.jpg?1782681837"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "36e9a6e9-1f9d-4860-97ee-f01e66f8eb4d",
     "name": "Depower",
     "cmc": 3.0,
@@ -582,6 +753,32 @@
       {
         "label": "Depower",
         "url": "https://cards.scryfall.io/normal/front/3/6/36e9a6e9-1f9d-4860-97ee-f01e66f8eb4d.jpg?1782681869"
+      }
+    ],
+    "back_face": null
+  },
+  {
+    "id": "d521b80b-4b0b-4d69-bd95-4c83feaf2145",
+    "name": "Epic Fight",
+    "cmc": 3.0,
+    "rarity": "rare",
+    "keywords": [
+      "Fight",
+      "Double"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/166/epic-fight?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{2}{G}",
+    "type_line": "Sorcery",
+    "oracle_text": "Choose one or both —\n• Double target creature's power and toughness until end of turn.\n• Target creature you control fights target creature an opponent controls.",
+    "colors": [
+      "G"
+    ],
+    "images": [
+      {
+        "label": "Epic Fight",
+        "url": "https://cards.scryfall.io/normal/front/d/5/d521b80b-4b0b-4d69-bd95-4c83feaf2145.jpg?1782681773"
       }
     ],
     "back_face": null
@@ -744,6 +941,29 @@
     "back_face": null
   },
   {
+    "id": "f74b9794-946e-4ddc-93b2-5a321fc51fd0",
+    "name": "Ronin, Shadow Stalker",
+    "cmc": 3.0,
+    "rarity": "uncommon",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/112/ronin-shadow-stalker?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{2}{B}",
+    "type_line": "Legendary Creature — Human Rogue Hero",
+    "oracle_text": "Pay 2 life: Add two mana of any one color. Spend this mana only to cast Equipment spells or activate equip abilities. Activate only once each turn.\n{T}, Sacrifice an Equipment attached to Ronin: Target creature gets -4/-4 until end of turn. Activate only as a sorcery.",
+    "colors": [
+      "B"
+    ],
+    "images": [
+      {
+        "label": "Ronin, Shadow Stalker",
+        "url": "https://cards.scryfall.io/normal/front/f/7/f74b9794-946e-4ddc-93b2-5a321fc51fd0.jpg?1782681818"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "8e651410-b829-4468-b866-a9dd15f909ad",
     "name": "S.H.I.E.L.D. Flying Car",
     "cmc": 3.0,
@@ -845,6 +1065,29 @@
     "back_face": null
   },
   {
+    "id": "9a1b057b-229c-4f65-ba4e-12dd342238de",
+    "name": "Web Up",
+    "cmc": 3.0,
+    "rarity": "common",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/41/web-up?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{2}{W}",
+    "type_line": "Enchantment",
+    "oracle_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
+    "colors": [
+      "W"
+    ],
+    "images": [
+      {
+        "label": "Web Up",
+        "url": "https://cards.scryfall.io/normal/front/9/a/9a1b057b-229c-4f65-ba4e-12dd342238de.jpg?1782681878"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "2c6ab9bb-dba2-4b5b-a4d9-54735f65ac21",
     "name": "Abomination, Terrifying Titan",
     "cmc": 4.0,
@@ -868,6 +1111,31 @@
       {
         "label": "Abomination, Terrifying Titan",
         "url": "https://cards.scryfall.io/normal/front/2/c/2c6ab9bb-dba2-4b5b-a4d9-54735f65ac21.jpg?1782681747"
+      }
+    ],
+    "back_face": null
+  },
+  {
+    "id": "ac3e586c-d654-4631-beda-a5e29cf04717",
+    "name": "Elektra, Daughter of the Hand",
+    "cmc": 4.0,
+    "rarity": "rare",
+    "keywords": [
+      "Sneak"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/97/elektra-daughter-of-the-hand?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{2}{B}{B}",
+    "type_line": "Legendary Creature — Human Ninja Villain",
+    "oracle_text": "Sneak {1}{B}{B} (You may cast this spell for {1}{B}{B} if you also return an unblocked attacker you control to hand during the declare blockers step. She enters tapped and attacking.)\nWhen Elektra enters, destroy target creature an opponent controls with power 3 or less.",
+    "colors": [
+      "B"
+    ],
+    "images": [
+      {
+        "label": "Elektra, Daughter of the Hand",
+        "url": "https://cards.scryfall.io/normal/front/a/c/ac3e586c-d654-4631-beda-a5e29cf04717.jpg?1782681830"
       }
     ],
     "back_face": null
@@ -919,6 +1187,55 @@
       {
         "label": "Hour of Defeat",
         "url": "https://cards.scryfall.io/normal/front/9/e/9e0034dd-396e-46af-b931-0daa25da4406.jpg?1782681829"
+      }
+    ],
+    "back_face": null
+  },
+  {
+    "id": "5060aa13-4b33-4b3a-8bdb-dd81308fa3e3",
+    "name": "Killmonger, Scourge of Wakanda",
+    "cmc": 4.0,
+    "rarity": "uncommon",
+    "keywords": [],
+    "scryfall_uri": "https://scryfall.com/card/msh/218/killmonger-scourge-of-wakanda?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{2}{B}{G}",
+    "type_line": "Legendary Creature — Human Mercenary Villain",
+    "oracle_text": "When Killmonger enters, you may sacrifice another creature. When you do, destroy target nonland permanent an opponent controls.\nAs long as there are two or more creature cards in your graveyard, Killmonger gets +2/+1.",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "images": [
+      {
+        "label": "Killmonger, Scourge of Wakanda",
+        "url": "https://cards.scryfall.io/normal/front/5/0/5060aa13-4b33-4b3a-8bdb-dd81308fa3e3.jpg?1782681728"
+      }
+    ],
+    "back_face": null
+  },
+  {
+    "id": "837265b0-fc15-4d96-9d6b-fd1c78534262",
+    "name": "Repulsor Blast",
+    "cmc": 4.0,
+    "rarity": "common",
+    "keywords": [
+      "Teamwork"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/150/repulsor-blast?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{3}{R}",
+    "type_line": "Sorcery",
+    "oracle_text": "Teamwork 2 (As an additional cost to cast this spell, you may tap any number of creatures you control with total power 2 or more.)\nRepulsor Blast deals 5 damage to target creature. If this spell was cast using teamwork, it also deals 2 damage to that creature's controller.",
+    "colors": [
+      "R"
+    ],
+    "images": [
+      {
+        "label": "Repulsor Blast",
+        "url": "https://cards.scryfall.io/normal/front/8/3/837265b0-fc15-4d96-9d6b-fd1c78534262.jpg?1782681788"
       }
     ],
     "back_face": null
@@ -1023,6 +1340,34 @@
     "back_face": null
   },
   {
+    "id": "c1c7aa22-51b0-45ee-9a8e-5493a1820d8c",
+    "name": "Wolverine, Fierce Fighter",
+    "cmc": 4.0,
+    "rarity": "rare",
+    "keywords": [
+      "Heal",
+      "Haste",
+      "Fight"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/240/wolverine-fierce-fighter?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{2}{R}{G}",
+    "type_line": "Legendary Creature — Mutant Berserker Hero",
+    "oracle_text": "Haste\nWhen Wolverine enters, he fights up to one other target creature.\nIf damage would be dealt to Wolverine, instead that damage is dealt, but all other damage already dealt to him is healed.",
+    "colors": [
+      "G",
+      "R"
+    ],
+    "images": [
+      {
+        "label": "Wolverine, Fierce Fighter",
+        "url": "https://cards.scryfall.io/normal/front/c/1/c1c7aa22-51b0-45ee-9a8e-5493a1820d8c.jpg?1782681708"
+      }
+    ],
+    "back_face": null
+  },
+  {
     "id": "bf736399-af74-4f52-9159-67ea67d0cf83",
     "name": "Avengers Assemble!",
     "cmc": 5.0,
@@ -1071,6 +1416,83 @@
       {
         "label": "Captain Marvel, Earth's Protector",
         "url": "https://cards.scryfall.io/normal/front/e/b/eb098550-22e6-4079-8c59-ed9ec2f764e3.jpg?1782681906"
+      }
+    ],
+    "back_face": null
+  },
+  {
+    "id": "04a38b92-619e-4fe8-b0cb-6fa31f0824ff",
+    "name": "The Coming of Galactus",
+    "cmc": 5.0,
+    "rarity": "mythic",
+    "keywords": [
+      "Trample"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/212/the-coming-of-galactus?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{2}{B}{B}{G}",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Destroy up to one target nonland permanent.\nII, III — Each opponent loses 2 life.\nIV — Create Galactus, a legendary 16/16 black Elder Alien creature token with flying, trample, and \"Whenever Galactus attacks, destroy target land.\"",
+    "colors": [
+      "B",
+      "G"
+    ],
+    "images": [
+      {
+        "label": "The Coming of Galactus",
+        "url": "https://cards.scryfall.io/normal/front/0/4/04a38b92-619e-4fe8-b0cb-6fa31f0824ff.jpg?1782681733"
+      }
+    ],
+    "back_face": null
+  },
+  {
+    "id": "fbd1f333-5640-41f8-b9dd-1c322ac7724a",
+    "name": "The Super Hero Civil War",
+    "cmc": 5.0,
+    "rarity": "rare",
+    "keywords": [
+      "Fight"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/231/the-super-hero-civil-war?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{3}{R}{W}",
+    "type_line": "Enchantment — Saga",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Gain control of up to two target creatures with total mana value 6 or less for as long as this Saga remains on the battlefield.\nII — Creatures you control get +1/+1 and gain vigilance until end of turn.\nIII — Target creature you control fights up to one other target creature.",
+    "colors": [
+      "R",
+      "W"
+    ],
+    "images": [
+      {
+        "label": "The Super Hero Civil War",
+        "url": "https://cards.scryfall.io/normal/front/f/b/fbd1f333-5640-41f8-b9dd-1c322ac7724a.jpg?1782681717"
+      }
+    ],
+    "back_face": null
+  },
+  {
+    "id": "cddd314c-c271-475a-b076-01a8599c8015",
+    "name": "Thor, God of Thunder",
+    "cmc": 5.0,
+    "rarity": "mythic",
+    "keywords": [
+      "Flying"
+    ],
+    "scryfall_uri": "https://scryfall.com/card/msh/156/thor-god-of-thunder?utm_source=api",
+    "kind": "sorcery_removal",
+    "role": "removal",
+    "mana_cost": "{3}{R}{R}",
+    "type_line": "Legendary Creature — God Warrior Hero",
+    "oracle_text": "Flying\nWhen Thor enters, exile target Equipment, instant, or sorcery card from your graveyard. Until the end of your next turn, you may play that card.\nWhenever you cast a noncreature spell, Thor deals damage equal to that spell's mana value to any target.",
+    "colors": [
+      "R"
+    ],
+    "images": [
+      {
+        "label": "Thor, God of Thunder",
+        "url": "https://cards.scryfall.io/normal/front/c/d/cddd314c-c271-475a-b076-01a8599c8015.jpg?1782681783"
       }
     ],
     "back_face": null

@@ -37,6 +37,31 @@ ACTIVATED_ABILITY_IDS = [
     "11fc8221-756a-4919-9272-38793e9c1ad9",  # Super-Skrull
 ]
 
+# Removal that can only be played at sorcery speed (no Flash, not an Instant,
+# no unrestricted activated ability) -- found by manually scanning e:msh for
+# destroy/exile/fight/damage-based removal on Sorceries, Sagas, and creature
+# ETB triggers. Off by default in the app since these can't ambush you, but
+# still worth recognizing as removal in the format.
+SORCERY_REMOVAL_IDS = [
+    "152a7b5b-2d95-45d3-8fd9-0ca1d5a79f8b",  # Go Nuts!
+    "af6bc9d2-5783-489a-8963-af65f54f4f17",  # Guerrilla Gorilla
+    "f85a77d2-e11e-44bc-a1e7-d783cd49d714",  # Photon Blast Barrage
+    "4d8c8ceb-84cd-46d2-9230-ab6ca4569334",  # The Ruinous Wrecking Crew
+    "72d3e750-870b-497d-80d7-e3df097db554",  # Avengers Disassembled
+    "d895d5a1-d382-438b-8551-e142bb5142af",  # Cruel Alliance
+    "d521b80b-4b0b-4d69-bd95-4c83feaf2145",  # Epic Fight
+    "98df64ca-39c3-47e6-8143-4106c8e9cf59",  # Murdock's Crusade
+    "f74b9794-946e-4ddc-93b2-5a321fc51fd0",  # Ronin, Shadow Stalker
+    "9a1b057b-229c-4f65-ba4e-12dd342238de",  # Web Up
+    "ac3e586c-d654-4631-beda-a5e29cf04717",  # Elektra, Daughter of the Hand
+    "5060aa13-4b33-4b3a-8bdb-dd81308fa3e3",  # Killmonger, Scourge of Wakanda
+    "837265b0-fc15-4d96-9d6b-fd1c78534262",  # Repulsor Blast
+    "c1c7aa22-51b0-45ee-9a8e-5493a1820d8c",  # Wolverine, Fierce Fighter
+    "04a38b92-619e-4fe8-b0cb-6fa31f0824ff",  # The Coming of Galactus
+    "fbd1f333-5640-41f8-b9dd-1c322ac7724a",  # The Super Hero Civil War
+    "cddd314c-c271-475a-b076-01a8599c8015",  # Thor, God of Thunder
+]
+
 ROLE_TAGS = {
     "Giant Growth": "combat_trick",
     "Helicarrier Strike": "removal",
@@ -81,6 +106,23 @@ ROLE_TAGS = {
     "Bullseye, Death Dealer": "removal",
     "Abomination, Terrifying Titan": "removal",
     "Super-Skrull": "removal",
+    "Go Nuts!": "removal",
+    "Guerrilla Gorilla": "removal",
+    "Photon Blast Barrage": "removal",
+    "The Ruinous Wrecking Crew": "removal",
+    "Avengers Disassembled": "removal",
+    "Cruel Alliance": "removal",
+    "Epic Fight": "removal",
+    "Murdock's Crusade": "removal",
+    "Ronin, Shadow Stalker": "removal",
+    "Web Up": "removal",
+    "Elektra, Daughter of the Hand": "removal",
+    "Killmonger, Scourge of Wakanda": "removal",
+    "Repulsor Blast": "removal",
+    "Wolverine, Fierce Fighter": "removal",
+    "The Coming of Galactus": "removal",
+    "The Super Hero Civil War": "removal",
+    "Thor, God of Thunder": "removal",
 }
 
 OUT_PATH = Path(__file__).parent.parent / "data" / "cards.json"
@@ -163,6 +205,10 @@ def main():
     for card_id in ACTIVATED_ABILITY_IDS:
         card = _get(f"https://api.scryfall.com/cards/{card_id}")
         trimmed.append(trim(card, "activated_ability"))
+
+    for card_id in SORCERY_REMOVAL_IDS:
+        card = _get(f"https://api.scryfall.com/cards/{card_id}")
+        trimmed.append(trim(card, "sorcery_removal"))
 
     missing_roles = [c["name"] for c in trimmed if c["name"] not in ROLE_TAGS]
     if missing_roles:

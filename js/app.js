@@ -1,23 +1,49 @@
-const PIP_COLORS = {
-  W: "#f8f6d8",
-  U: "#0e68ab",
-  B: "#150b00",
-  R: "#d3202a",
-  G: "#00733e",
+// Maps a Scryfall mana symbol (e.g. "W", "2", "X", "G/W", "W/P") to the
+// corresponding mana-font (https://mana.andrewgioia.com/) icon class.
+const PIP_NAMES = { W: "White", U: "Blue", B: "Black", R: "Red", G: "Green", C: "Colorless" };
+
+// mana-font only ships one class per two-color pair (e.g. "ms-wu", not
+// "ms-uw"), so both symbol orderings need to resolve to it.
+const HYBRID_PAIR_CLASS = {
+  WU: "wu", UW: "wu",
+  WB: "wb", BW: "wb",
+  WR: "rw", RW: "rw",
+  WG: "gw", GW: "gw",
+  UB: "ub", BU: "ub",
+  UR: "ur", RU: "ur",
+  UG: "gu", GU: "gu",
+  BR: "br", RB: "br",
+  BG: "bg", GB: "bg",
+  RG: "rg", GR: "rg",
 };
 
-const PIP_NAMES = {
-  W: "White",
-  U: "Blue",
-  B: "Black",
-  R: "Red",
-  G: "Green",
-};
+function manaSymbolToClass(symbol) {
+  if (/^[0-9]+$/.test(symbol)) return `ms-${symbol}`;
+  if (/^[XYZ]$/i.test(symbol)) return `ms-${symbol.toLowerCase()}`;
+
+  const parts = symbol.split("/");
+  if (parts.length === 1) {
+    return /^[WUBRGC]$/.test(symbol) ? `ms-${symbol.toLowerCase()}` : null;
+  }
+  if (parts.includes("P")) {
+    const color = parts.find((p) => p !== "P");
+    if (/^[0-9]+$/.test(color)) return null;
+    if (/^[WUBRG]$/.test(color)) return `ms-${color.toLowerCase()}p`;
+    const pairClass = HYBRID_PAIR_CLASS[parts.filter((p) => p !== "P").join("")];
+    return pairClass ? `ms-${pairClass}p` : null;
+  }
+  if (/^[0-9]+$/.test(parts[0]) && /^[WUBRG]$/.test(parts[1])) {
+    return `ms-${parts[0]}${parts[1].toLowerCase()}`;
+  }
+  const pairClass = HYBRID_PAIR_CLASS[parts.join("")];
+  return pairClass ? `ms-${pairClass}` : null;
+}
 
 const KIND_FILTER_IDS = {
   instant: "kind-instant",
   flash_permanent: "kind-flash",
   activated_ability: "kind-activated",
+  sorcery_removal: "kind-sorcery-removal",
 };
 
 let allCards = [];
@@ -60,7 +86,9 @@ function wireControls() {
   });
 
   document
-    .querySelectorAll(".color-filter, .role-filter, #kind-instant, #kind-flash, #kind-activated")
+    .querySelectorAll(
+      ".color-filter, .role-filter, #kind-instant, #kind-flash, #kind-activated, #kind-sorcery-removal"
+    )
     .forEach((el) => {
       el.addEventListener("change", () => {
         rebuildQueue();
@@ -183,17 +211,12 @@ function renderManaCost(manaCost, container) {
   const tokens = manaCost.match(/\{[^}]+\}/g) || [];
   tokens.forEach((token) => {
     const symbol = token.slice(1, -1);
-    const pip = document.createElement("span");
-    pip.className = "pip";
-    const letters = symbol.split("/").filter((s) => PIP_COLORS[s]);
-    if (letters.length === 2) {
-      pip.style.background = `linear-gradient(135deg, ${PIP_COLORS[letters[0]]} 50%, ${PIP_COLORS[letters[1]]} 50%)`;
-    } else if (letters.length === 1) {
-      pip.style.background = PIP_COLORS[letters[0]];
-    } else {
-      pip.style.background = "#c9c9c9";
-    }
-    pip.textContent = symbol.length <= 2 ? symbol.replace("/", "") : symbol;
+    const cssClass = manaSymbolToClass(symbol);
+    const pip = document.createElement("i");
+    pip.className = cssClass ? `ms ${cssClass} ms-cost ms-shadow` : "ms ms-cost";
+    if (!cssClass) pip.textContent = symbol;
+
+    const letters = symbol.split("/").filter((s) => PIP_NAMES[s]);
     const label = letters.length ? letters.map((l) => PIP_NAMES[l]).join(" or ") + " mana" : `${symbol} generic mana`;
     pip.setAttribute("aria-label", label);
     container.appendChild(pip);
@@ -204,6 +227,7 @@ const KIND_LABELS = {
   instant: "Instant",
   flash_permanent: "Flash permanent",
   activated_ability: "Instant-speed activated ability",
+  sorcery_removal: "Sorcery-speed removal",
 };
 
 function renderFront(card) {
