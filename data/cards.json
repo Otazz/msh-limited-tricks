@@ -17,7 +17,7 @@
     "images": [
       {
         "label": "Giant Growth",
-        "url": "https://cards.scryfall.io/normal/front/f/d/fd1f95bf-48ea-455a-8a6c-0249b11c8900.jpg?1782681773"
+        "url": "https://cards.scryfall.io/normal/front/f/d/fd1f95bf-48ea-455a-8a6c-0249b11c8900.jpg?1783902918"
       }
     ],
     "back_face": null
@@ -43,7 +43,7 @@
     "images": [
       {
         "label": "Go Nuts!",
-        "url": "https://cards.scryfall.io/normal/front/1/5/152a7b5b-2d95-45d3-8fd9-0ca1d5a79f8b.jpg?1782681772"
+        "url": "https://cards.scryfall.io/normal/front/1/5/152a7b5b-2d95-45d3-8fd9-0ca1d5a79f8b.jpg?1783902918"
       }
     ],
     "back_face": null
@@ -68,7 +68,7 @@
     "images": [
       {
         "label": "Helicarrier Strike",
-        "url": "https://cards.scryfall.io/normal/front/6/e/6e518842-ce44-4af2-8f38-89869828294a.jpg?1782681899"
+        "url": "https://cards.scryfall.io/normal/front/6/e/6e518842-ce44-4af2-8f38-89869828294a.jpg?1783902975"
       }
     ],
     "back_face": null
@@ -93,7 +93,7 @@
     "images": [
       {
         "label": "Panther Pounce",
-        "url": "https://cards.scryfall.io/normal/front/4/1/4122ae40-800d-4b6b-93c9-aa503c33f1a9.jpg?1782681887"
+        "url": "https://cards.scryfall.io/normal/front/4/1/4122ae40-800d-4b6b-93c9-aa503c33f1a9.jpg?1783902969"
       }
     ],
     "back_face": null
@@ -118,7 +118,7 @@
     "images": [
       {
         "label": "Rapid Rescue",
-        "url": "https://cards.scryfall.io/normal/front/d/7/d739e636-681e-4423-84e3-91efd02b2c94.jpg?1782681761"
+        "url": "https://cards.scryfall.io/normal/front/d/7/d739e636-681e-4423-84e3-91efd02b2c94.jpg?1783902914"
       }
     ],
     "back_face": null
@@ -144,7 +144,7 @@
     "images": [
       {
         "label": "Super Speed",
-        "url": "https://cards.scryfall.io/normal/front/2/a/2aa2e596-e5e0-4c60-8eea-14adda1cdaae.jpg?1782681784"
+        "url": "https://cards.scryfall.io/normal/front/2/a/2aa2e596-e5e0-4c60-8eea-14adda1cdaae.jpg?1783902924"
       }
     ],
     "back_face": null
@@ -167,7 +167,7 @@
     "images": [
       {
         "label": "Blazing Crescendo",
-        "url": "https://cards.scryfall.io/normal/front/8/4/8447c3d6-8c65-4d3c-81c4-609801602d06.jpg?1782681808"
+        "url": "https://cards.scryfall.io/normal/front/8/4/8447c3d6-8c65-4d3c-81c4-609801602d06.jpg?1783902932"
       }
     ],
     "back_face": null
@@ -190,7 +190,7 @@
     "images": [
       {
         "label": "Dark Deed",
-        "url": "https://cards.scryfall.io/normal/front/4/9/49e36cac-3999-40b3-91b3-85af4fded679.jpg?1782681837"
+        "url": "https://cards.scryfall.io/normal/front/4/9/49e36cac-3999-40b3-91b3-85af4fded679.jpg?1783902948"
       }
     ],
     "back_face": null
@@ -213,7 +213,7 @@
     "images": [
       {
         "label": "Decoy Ploy",
-        "url": "https://cards.scryfall.io/normal/front/d/8/d8719b74-48ef-4f68-b59a-949edd644ddc.jpg?1782681836"
+        "url": "https://cards.scryfall.io/normal/front/d/8/d8719b74-48ef-4f68-b59a-949edd644ddc.jpg?1783902945"
       }
     ],
     "back_face": null
@@ -238,7 +238,7 @@
     "images": [
       {
         "label": "Guerrilla Gorilla",
-        "url": "https://cards.scryfall.io/normal/front/a/f/af6bc9d2-5783-489a-8963-af65f54f4f17.jpg?1782681772"
+        "url": "https://cards.scryfall.io/normal/front/a/f/af6bc9d2-5783-489a-8963-af65f54f4f17.jpg?1783902918"
       }
     ],
     "back_face": null
@@ -263,7 +263,7 @@
     "images": [
       {
         "label": "HULK SMASH!",
-        "url": "https://cards.scryfall.io/normal/front/3/7/374ffb3e-0753-4682-936a-ae6921ace475.jpg?1782681799"
+        "url": "https://cards.scryfall.io/normal/front/3/7/374ffb3e-0753-4682-936a-ae6921ace475.jpg?1783902929"
       }
     ],
     "back_face": null
@@ -286,7 +286,7 @@
     "images": [
       {
         "label": "Lightning Strike",
-        "url": "https://cards.scryfall.io/normal/front/8/8/88b13bc0-da54-4c3b-917c-7c8345a329f5.jpg?1782681794"
+        "url": "https://cards.scryfall.io/normal/front/8/8/88b13bc0-da54-4c3b-917c-7c8345a329f5.jpg?1783902927"
       }
     ],
     "back_face": null
@@ -297,6 +297,8 @@
     "cmc": 2.0,
     "rarity": "common",
     "keywords": [
+      "Street Justice",
+      "Legal Justice",
       "Teamwork"
     ],
     "scryfall_uri": "https://scryfall.com/card/msh/24/murdocks-crusade?utm_source=api",
@@ -311,7 +313,7 @@
     "images": [
       {
         "label": "Murdock's Crusade",
-        "url": "https://cards.scryfall.io/normal/front/9/8/98df64ca-39c3-47e6-8143-4106c8e9cf59.jpg?1782681895"
+        "url": "https://cards.scryfall.io/normal/front/9/8/98df64ca-39c3-47e6-8143-4106c8e9cf59.jpg?1783902970"
       }
     ],
     "back_face": null
@@ -337,7 +339,7 @@
     "images": [
       {
         "label": "Night Nurse, Healer of Heroes",
-        "url": "https://cards.scryfall.io/normal/front/3/1/3199907b-9f24-4554-942a-8ab5a7701717.jpg?1782681890"
+        "url": "https://cards.scryfall.io/normal/front/3/1/3199907b-9f24-4554-942a-8ab5a7701717.jpg?1783902972"
       }
     ],
     "back_face": null
@@ -360,7 +362,7 @@
     "images": [
       {
         "label": "Photon Blast Barrage",
-        "url": "https://cards.scryfall.io/normal/front/f/8/f85a77d2-e11e-44bc-a1e7-d783cd49d714.jpg?1782681789"
+        "url": "https://cards.scryfall.io/normal/front/f/8/f85a77d2-e11e-44bc-a1e7-d783cd49d714.jpg?1783902926"
       }
     ],
     "back_face": null
@@ -383,7 +385,7 @@
     "images": [
       {
         "label": "Raft Security Officer",
-        "url": "https://cards.scryfall.io/normal/front/f/9/f9b9f9d6-b50c-4b29-80be-284ba773c70b.jpg?1782681887"
+        "url": "https://cards.scryfall.io/normal/front/f/9/f9b9f9d6-b50c-4b29-80be-284ba773c70b.jpg?1783902967"
       }
     ],
     "back_face": null
@@ -409,7 +411,7 @@
     "images": [
       {
         "label": "Stolen Stark Tech",
-        "url": "https://cards.scryfall.io/normal/front/d/b/db4557ad-4141-4dae-870e-a587506f4914.jpg?1782681818"
+        "url": "https://cards.scryfall.io/normal/front/d/b/db4557ad-4141-4dae-870e-a587506f4914.jpg?1783902937"
       }
     ],
     "back_face": null
@@ -435,7 +437,7 @@
     "images": [
       {
         "label": "Super Suit",
-        "url": "https://cards.scryfall.io/normal/front/e/8/e87f3a26-c2e5-47c7-b19d-bc01cb794805.jpg?1782681847"
+        "url": "https://cards.scryfall.io/normal/front/e/8/e87f3a26-c2e5-47c7-b19d-bc01cb794805.jpg?1783902950"
       }
     ],
     "back_face": null
@@ -460,7 +462,7 @@
     "images": [
       {
         "label": "Super Villain Lockup",
-        "url": "https://cards.scryfall.io/normal/front/1/a/1af5a1ca-3d11-45e3-ba12-c455c5a7fea1.jpg?1782681882"
+        "url": "https://cards.scryfall.io/normal/front/1/a/1af5a1ca-3d11-45e3-ba12-c455c5a7fea1.jpg?1783902965"
       }
     ],
     "back_face": null
@@ -483,7 +485,7 @@
     "images": [
       {
         "label": "Take Up the Shield",
-        "url": "https://cards.scryfall.io/normal/front/5/1/5199d708-8b11-461d-9e91-3e8cd70906f7.jpg?1782681878"
+        "url": "https://cards.scryfall.io/normal/front/5/1/5199d708-8b11-461d-9e91-3e8cd70906f7.jpg?1783902965"
       }
     ],
     "back_face": null
@@ -508,7 +510,7 @@
     "images": [
       {
         "label": "Team Tactics",
-        "url": "https://cards.scryfall.io/normal/front/d/b/db1c7a71-3d01-4f2a-9b25-2a19bb0d1a56.jpg?1782681783"
+        "url": "https://cards.scryfall.io/normal/front/d/b/db1c7a71-3d01-4f2a-9b25-2a19bb0d1a56.jpg?1783902925"
       }
     ],
     "back_face": null
@@ -532,7 +534,7 @@
     "images": [
       {
         "label": "The Ruinous Wrecking Crew",
-        "url": "https://cards.scryfall.io/normal/front/4/d/4d8c8ceb-84cd-46d2-9230-ab6ca4569334.jpg?1782681723"
+        "url": "https://cards.scryfall.io/normal/front/4/d/4d8c8ceb-84cd-46d2-9230-ab6ca4569334.jpg?1783902898"
       }
     ],
     "back_face": null
@@ -544,6 +546,7 @@
     "rarity": "rare",
     "keywords": [
       "Flying",
+      "Wasp's Sting",
       "Flash"
     ],
     "scryfall_uri": "https://scryfall.com/card/msh/84/the-wondrous-wasp?utm_source=api",
@@ -558,7 +561,7 @@
     "images": [
       {
         "label": "The Wondrous Wasp",
-        "url": "https://cards.scryfall.io/normal/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1782681840"
+        "url": "https://cards.scryfall.io/normal/front/4/8/484e80a4-1d5f-4c27-98a8-ee2ef9d6cbdc.jpg?1783902947"
       }
     ],
     "back_face": null
@@ -584,7 +587,7 @@
     "images": [
       {
         "label": "Tigra, Feline Fury",
-        "url": "https://cards.scryfall.io/normal/front/7/3/73c11aea-4fa4-438d-b886-2fafa60c82f9.jpg?1782681752"
+        "url": "https://cards.scryfall.io/normal/front/7/3/73c11aea-4fa4-438d-b886-2fafa60c82f9.jpg?1783902911"
       }
     ],
     "back_face": null
@@ -607,7 +610,7 @@
     "images": [
       {
         "label": "Vision of Love",
-        "url": "https://cards.scryfall.io/normal/front/5/6/5604cee1-a2ea-48ed-88f4-6878bd053fc8.jpg?1782681779"
+        "url": "https://cards.scryfall.io/normal/front/5/6/5604cee1-a2ea-48ed-88f4-6878bd053fc8.jpg?1783902922"
       }
     ],
     "back_face": null
@@ -632,7 +635,7 @@
     "images": [
       {
         "label": "We Say Thee Nay!",
-        "url": "https://cards.scryfall.io/normal/front/1/3/13b70321-75bd-4d44-b9f6-5f062a5dda0f.jpg?1782681846"
+        "url": "https://cards.scryfall.io/normal/front/1/3/13b70321-75bd-4d44-b9f6-5f062a5dda0f.jpg?1783902948"
       }
     ],
     "back_face": null
@@ -657,7 +660,7 @@
     "images": [
       {
         "label": "Widow's Bite",
-        "url": "https://cards.scryfall.io/normal/front/d/b/dbee18af-9ade-4251-81a1-f6e7ffbf480f.jpg?1782681809"
+        "url": "https://cards.scryfall.io/normal/front/d/b/dbee18af-9ade-4251-81a1-f6e7ffbf480f.jpg?1783902935"
       }
     ],
     "back_face": null
@@ -680,7 +683,7 @@
     "images": [
       {
         "label": "Avengers Disassembled",
-        "url": "https://cards.scryfall.io/normal/front/7/2/72d3e750-870b-497d-80d7-e3df097db554.jpg?1782681809"
+        "url": "https://cards.scryfall.io/normal/front/7/2/72d3e750-870b-497d-80d7-e3df097db554.jpg?1783902933"
       }
     ],
     "back_face": null
@@ -704,7 +707,7 @@
     "images": [
       {
         "label": "Bullseye, Death Dealer",
-        "url": "https://cards.scryfall.io/normal/front/f/d/fd1f0b5f-5e0e-4da1-ab54-a62db5af3591.jpg?1782681737"
+        "url": "https://cards.scryfall.io/normal/front/f/d/fd1f0b5f-5e0e-4da1-ab54-a62db5af3591.jpg?1783902903"
       }
     ],
     "back_face": null
@@ -729,7 +732,7 @@
     "images": [
       {
         "label": "Cruel Alliance",
-        "url": "https://cards.scryfall.io/normal/front/d/8/d895d5a1-d382-438b-8551-e142bb5142af.jpg?1782681837"
+        "url": "https://cards.scryfall.io/normal/front/d/8/d895d5a1-d382-438b-8551-e142bb5142af.jpg?1783902948"
       }
     ],
     "back_face": null
@@ -752,7 +755,7 @@
     "images": [
       {
         "label": "Depower",
-        "url": "https://cards.scryfall.io/normal/front/3/6/36e9a6e9-1f9d-4860-97ee-f01e66f8eb4d.jpg?1782681869"
+        "url": "https://cards.scryfall.io/normal/front/3/6/36e9a6e9-1f9d-4860-97ee-f01e66f8eb4d.jpg?1783902960"
       }
     ],
     "back_face": null
@@ -778,7 +781,7 @@
     "images": [
       {
         "label": "Epic Fight",
-        "url": "https://cards.scryfall.io/normal/front/d/5/d521b80b-4b0b-4d69-bd95-4c83feaf2145.jpg?1782681773"
+        "url": "https://cards.scryfall.io/normal/front/d/5/d521b80b-4b0b-4d69-bd95-4c83feaf2145.jpg?1783902918"
       }
     ],
     "back_face": null
@@ -789,6 +792,7 @@
     "cmc": 3.0,
     "rarity": "uncommon",
     "keywords": [
+      "Intangibility",
       "Flash"
     ],
     "scryfall_uri": "https://scryfall.com/card/msh/214/ghost-spectral-saboteur?utm_source=api",
@@ -804,7 +808,7 @@
     "images": [
       {
         "label": "Ghost, Spectral Saboteur",
-        "url": "https://cards.scryfall.io/normal/front/c/2/c22bb4d5-6b6f-4c43-b005-48ae4042739d.jpg?1782681732"
+        "url": "https://cards.scryfall.io/normal/front/c/2/c22bb4d5-6b6f-4c43-b005-48ae4042739d.jpg?1783902902"
       }
     ],
     "back_face": null
@@ -827,7 +831,7 @@
     "images": [
       {
         "label": "Hire a Crew",
-        "url": "https://cards.scryfall.io/normal/front/5/0/50a6aa80-79a3-46f3-9cc1-5bf663b64976.jpg?1782681800"
+        "url": "https://cards.scryfall.io/normal/front/5/0/50a6aa80-79a3-46f3-9cc1-5bf663b64976.jpg?1783902933"
       }
     ],
     "back_face": null
@@ -850,7 +854,7 @@
     "images": [
       {
         "label": "I Am Iron Man",
-        "url": "https://cards.scryfall.io/normal/front/9/c/9c401abb-5978-41c0-962b-0432f9433929.jpg?1782681867"
+        "url": "https://cards.scryfall.io/normal/front/9/c/9c401abb-5978-41c0-962b-0432f9433929.jpg?1783902957"
       }
     ],
     "back_face": null
@@ -878,11 +882,11 @@
     "images": [
       {
         "label": "King T'Challa",
-        "url": "https://cards.scryfall.io/normal/front/a/d/add7d3ce-aa58-4da0-8c2a-cfd01c3a8975.jpg?1782681728"
+        "url": "https://cards.scryfall.io/normal/front/a/d/add7d3ce-aa58-4da0-8c2a-cfd01c3a8975.jpg?1783902911"
       },
       {
         "label": "Black Panther, Hope Enduring",
-        "url": "https://cards.scryfall.io/normal/back/a/d/add7d3ce-aa58-4da0-8c2a-cfd01c3a8975.jpg?1782681728"
+        "url": "https://cards.scryfall.io/normal/back/a/d/add7d3ce-aa58-4da0-8c2a-cfd01c3a8975.jpg?1783902911"
       }
     ],
     "back_face": {
@@ -910,7 +914,7 @@
     "images": [
       {
         "label": "Punishing Punch",
-        "url": "https://cards.scryfall.io/normal/front/a/3/a33a4cb4-1b57-47ca-8e5e-58ff46a6e0ce.jpg?1782681762"
+        "url": "https://cards.scryfall.io/normal/front/a/3/a33a4cb4-1b57-47ca-8e5e-58ff46a6e0ce.jpg?1783902913"
       }
     ],
     "back_face": null
@@ -935,7 +939,7 @@
     "images": [
       {
         "label": "Red Guardian, Super-Soldier",
-        "url": "https://cards.scryfall.io/normal/front/c/0/c08f8163-319a-4a31-b15a-93974cacd5b7.jpg?1782681886"
+        "url": "https://cards.scryfall.io/normal/front/c/0/c08f8163-319a-4a31-b15a-93974cacd5b7.jpg?1783902967"
       }
     ],
     "back_face": null
@@ -958,7 +962,7 @@
     "images": [
       {
         "label": "Ronin, Shadow Stalker",
-        "url": "https://cards.scryfall.io/normal/front/f/7/f74b9794-946e-4ddc-93b2-5a321fc51fd0.jpg?1782681818"
+        "url": "https://cards.scryfall.io/normal/front/f/7/f74b9794-946e-4ddc-93b2-5a321fc51fd0.jpg?1783902939"
       }
     ],
     "back_face": null
@@ -985,7 +989,7 @@
     "images": [
       {
         "label": "S.H.I.E.L.D. Flying Car",
-        "url": "https://cards.scryfall.io/normal/front/8/e/8e651410-b829-4468-b866-a9dd15f909ad.jpg?1782681849"
+        "url": "https://cards.scryfall.io/normal/front/8/e/8e651410-b829-4468-b866-a9dd15f909ad.jpg?1783902952"
       }
     ],
     "back_face": null
@@ -998,7 +1002,8 @@
     "keywords": [
       "Reach",
       "Vigilance",
-      "Flash"
+      "Flash",
+      "No One Dies!"
     ],
     "scryfall_uri": "https://scryfall.com/card/msh/228/spider-man-to-the-rescue?utm_source=api",
     "kind": "flash_permanent",
@@ -1013,7 +1018,7 @@
     "images": [
       {
         "label": "Spider-Man, To the Rescue",
-        "url": "https://cards.scryfall.io/normal/front/e/5/e5db6968-1ca3-46bd-8cf9-e2c411ab29c1.jpg?1782681718"
+        "url": "https://cards.scryfall.io/normal/front/e/5/e5db6968-1ca3-46bd-8cf9-e2c411ab29c1.jpg?1783902898"
       }
     ],
     "back_face": null
@@ -1036,7 +1041,7 @@
     "images": [
       {
         "label": "Thirst for Knowledge",
-        "url": "https://cards.scryfall.io/normal/front/5/f/5f4f77e5-0019-4a5f-bae6-136121946929.jpg?1782681847"
+        "url": "https://cards.scryfall.io/normal/front/5/f/5f4f77e5-0019-4a5f-bae6-136121946929.jpg?1783902949"
       }
     ],
     "back_face": null
@@ -1059,7 +1064,7 @@
     "images": [
       {
         "label": "Visions of Villainy",
-        "url": "https://cards.scryfall.io/normal/front/f/8/f8f1e4f9-7415-437f-b694-ecbdd76db114.jpg?1782681812"
+        "url": "https://cards.scryfall.io/normal/front/f/8/f8f1e4f9-7415-437f-b694-ecbdd76db114.jpg?1783902935"
       }
     ],
     "back_face": null
@@ -1082,7 +1087,7 @@
     "images": [
       {
         "label": "Web Up",
-        "url": "https://cards.scryfall.io/normal/front/9/a/9a1b057b-229c-4f65-ba4e-12dd342238de.jpg?1782681878"
+        "url": "https://cards.scryfall.io/normal/front/9/a/9a1b057b-229c-4f65-ba4e-12dd342238de.jpg?1783902964"
       }
     ],
     "back_face": null
@@ -1110,7 +1115,7 @@
     "images": [
       {
         "label": "Abomination, Terrifying Titan",
-        "url": "https://cards.scryfall.io/normal/front/2/c/2c6ab9bb-dba2-4b5b-a4d9-54735f65ac21.jpg?1782681747"
+        "url": "https://cards.scryfall.io/normal/front/2/c/2c6ab9bb-dba2-4b5b-a4d9-54735f65ac21.jpg?1783902908"
       }
     ],
     "back_face": null
@@ -1135,7 +1140,7 @@
     "images": [
       {
         "label": "Elektra, Daughter of the Hand",
-        "url": "https://cards.scryfall.io/normal/front/a/c/ac3e586c-d654-4631-beda-a5e29cf04717.jpg?1782681830"
+        "url": "https://cards.scryfall.io/normal/front/a/c/ac3e586c-d654-4631-beda-a5e29cf04717.jpg?1783902943"
       }
     ],
     "back_face": null
@@ -1161,7 +1166,7 @@
     "images": [
       {
         "label": "Giant-Sized Flying Ant",
-        "url": "https://cards.scryfall.io/normal/front/d/a/da529bb3-725b-41aa-ac34-b4117ff5d95b.jpg?1782681867"
+        "url": "https://cards.scryfall.io/normal/front/d/a/da529bb3-725b-41aa-ac34-b4117ff5d95b.jpg?1783902958"
       }
     ],
     "back_face": null
@@ -1186,7 +1191,7 @@
     "images": [
       {
         "label": "Hour of Defeat",
-        "url": "https://cards.scryfall.io/normal/front/9/e/9e0034dd-396e-46af-b931-0daa25da4406.jpg?1782681829"
+        "url": "https://cards.scryfall.io/normal/front/9/e/9e0034dd-396e-46af-b931-0daa25da4406.jpg?1783902942"
       }
     ],
     "back_face": null
@@ -1210,7 +1215,7 @@
     "images": [
       {
         "label": "Killmonger, Scourge of Wakanda",
-        "url": "https://cards.scryfall.io/normal/front/5/0/5060aa13-4b33-4b3a-8bdb-dd81308fa3e3.jpg?1782681728"
+        "url": "https://cards.scryfall.io/normal/front/5/0/5060aa13-4b33-4b3a-8bdb-dd81308fa3e3.jpg?1783902900"
       }
     ],
     "back_face": null
@@ -1235,7 +1240,7 @@
     "images": [
       {
         "label": "Repulsor Blast",
-        "url": "https://cards.scryfall.io/normal/front/8/3/837265b0-fc15-4d96-9d6b-fd1c78534262.jpg?1782681788"
+        "url": "https://cards.scryfall.io/normal/front/8/3/837265b0-fc15-4d96-9d6b-fd1c78534262.jpg?1783902925"
       }
     ],
     "back_face": null
@@ -1261,7 +1266,7 @@
     "images": [
       {
         "label": "Spider-Woman, Secret Agent",
-        "url": "https://cards.scryfall.io/normal/front/a/0/a0325cb5-4c43-418a-8f1b-cf5bf29e74d7.jpg?1782681717"
+        "url": "https://cards.scryfall.io/normal/front/a/0/a0325cb5-4c43-418a-8f1b-cf5bf29e74d7.jpg?1783902897"
       }
     ],
     "back_face": null
@@ -1286,7 +1291,7 @@
     "images": [
       {
         "label": "Super-Skrull",
-        "url": "https://cards.scryfall.io/normal/front/1/1/11fc8221-756a-4919-9272-38793e9c1ad9.jpg?1782681818"
+        "url": "https://cards.scryfall.io/normal/front/1/1/11fc8221-756a-4919-9272-38793e9c1ad9.jpg?1783902936"
       }
     ],
     "back_face": null
@@ -1311,7 +1316,7 @@
     "images": [
       {
         "label": "Thunderbolts Conspiracy",
-        "url": "https://cards.scryfall.io/normal/front/f/4/f498c1a4-54d2-4e87-952f-8cf7e408930c.jpg?1782681816"
+        "url": "https://cards.scryfall.io/normal/front/f/4/f498c1a4-54d2-4e87-952f-8cf7e408930c.jpg?1783902936"
       }
     ],
     "back_face": null
@@ -1334,7 +1339,7 @@
     "images": [
       {
         "label": "Truck Toss",
-        "url": "https://cards.scryfall.io/normal/front/6/0/60f02fbf-1416-48a3-bf94-f27509f6983a.jpg?1782681782"
+        "url": "https://cards.scryfall.io/normal/front/6/0/60f02fbf-1416-48a3-bf94-f27509f6983a.jpg?1783902923"
       }
     ],
     "back_face": null
@@ -1362,7 +1367,7 @@
     "images": [
       {
         "label": "Wolverine, Fierce Fighter",
-        "url": "https://cards.scryfall.io/normal/front/c/1/c1c7aa22-51b0-45ee-9a8e-5493a1820d8c.jpg?1782681708"
+        "url": "https://cards.scryfall.io/normal/front/c/1/c1c7aa22-51b0-45ee-9a8e-5493a1820d8c.jpg?1783902893"
       }
     ],
     "back_face": null
@@ -1387,7 +1392,7 @@
     "images": [
       {
         "label": "Avengers Assemble!",
-        "url": "https://cards.scryfall.io/normal/front/b/f/bf736399-af74-4f52-9159-67ea67d0cf83.jpg?1782681908"
+        "url": "https://cards.scryfall.io/normal/front/b/f/bf736399-af74-4f52-9159-67ea67d0cf83.jpg?1783902981"
       }
     ],
     "back_face": null
@@ -1415,7 +1420,7 @@
     "images": [
       {
         "label": "Captain Marvel, Earth's Protector",
-        "url": "https://cards.scryfall.io/normal/front/e/b/eb098550-22e6-4079-8c59-ed9ec2f764e3.jpg?1782681906"
+        "url": "https://cards.scryfall.io/normal/front/e/b/eb098550-22e6-4079-8c59-ed9ec2f764e3.jpg?1783902976"
       }
     ],
     "back_face": null
@@ -1441,7 +1446,7 @@
     "images": [
       {
         "label": "The Coming of Galactus",
-        "url": "https://cards.scryfall.io/normal/front/0/4/04a38b92-619e-4fe8-b0cb-6fa31f0824ff.jpg?1782681733"
+        "url": "https://cards.scryfall.io/normal/front/0/4/04a38b92-619e-4fe8-b0cb-6fa31f0824ff.jpg?1784182991"
       }
     ],
     "back_face": null
@@ -1467,7 +1472,7 @@
     "images": [
       {
         "label": "The Super Hero Civil War",
-        "url": "https://cards.scryfall.io/normal/front/f/b/fbd1f333-5640-41f8-b9dd-1c322ac7724a.jpg?1782681717"
+        "url": "https://cards.scryfall.io/normal/front/f/b/fbd1f333-5640-41f8-b9dd-1c322ac7724a.jpg?1783902897"
       }
     ],
     "back_face": null
@@ -1492,7 +1497,7 @@
     "images": [
       {
         "label": "Thor, God of Thunder",
-        "url": "https://cards.scryfall.io/normal/front/c/d/cddd314c-c271-475a-b076-01a8599c8015.jpg?1782681783"
+        "url": "https://cards.scryfall.io/normal/front/c/d/cddd314c-c271-475a-b076-01a8599c8015.jpg?1783902923"
       }
     ],
     "back_face": null
